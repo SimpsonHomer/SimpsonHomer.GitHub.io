@@ -11,7 +11,7 @@ header {
 nav {
 }
 
-ul {
+nav.ul {
   list-style-type: none;
   padding-left:55px;
 }
