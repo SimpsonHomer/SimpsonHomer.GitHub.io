@@ -42,4 +42,5 @@ a:hover {
 
 #resources li{
   display:block;
+  max-width:595px;
 }
