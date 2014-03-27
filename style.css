@@ -39,7 +39,7 @@ a:hover {
   color:red
 }
 
-li.resources{
+#resources li{
   display:block;
   max-width:600px;
 }
