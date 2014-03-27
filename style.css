@@ -1,6 +1,6 @@
 header {
   padding-left:47px;
-  font-family:calibri;
+  font-family:Gafata;
   margin:10px;
 }
 
@@ -18,7 +18,7 @@ ul {
 
 li {
   display: inline-table;
-  font-family:calibri;
+  font-family:Gafata;
   padding-left:3px;
   padding-right:3px;
   position:relative;
@@ -46,6 +46,6 @@ ul li:hover > ul{
 }
 
 div {
-  font-family:calibri;
+  font-family:Gafata;
   padding-left:57px;
 }
