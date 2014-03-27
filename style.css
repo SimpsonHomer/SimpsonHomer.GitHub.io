@@ -1,0 +1,41 @@
+header {
+  padding-left:47px;
+  font-family:calibri;
+  margin:10px;
+  width:450px;
+}
+
+.h1{
+  font-size:xx-large;
+}
+
+nav {
+  width:200px
+  float:right;
+}
+
+ul {
+  align:center;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  font-family:calibri;
+  border:solid;
+  border-width:1px;
+  margin:20px;
+  padding-left:3px;
+}
+
+li:hover{
+  color:red;
+}
+
+#links {
+  padding-right:3px;
+}
+
+div {
+  padding-left:57px;
+}
