@@ -44,3 +44,8 @@ a:hover {
   display:block;
   max-width:600px;
 }
+
+img.me{
+  float:right;
+  maring:5px;
+}
