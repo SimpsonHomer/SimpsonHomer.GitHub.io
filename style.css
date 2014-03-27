@@ -25,26 +25,6 @@ li {
   overflow:hidden;
 }
 
-li:hover{
-  color:red;
-}
-
-ul ul{
-  display:none;
-}
-
-ul ul li{
-  display:block;
-  color:black;
-  padding-left:0px;
-  padding-right:0px;
-  right:35px;
-}
-
-ul li:hover > ul{
-  display:block;
-}
-
 div {
   font-family:Scada;
   padding-left:57px;
