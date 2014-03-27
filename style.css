@@ -48,4 +48,5 @@ ul li:hover > ul{
 div {
   font-family:Scada;
   padding-left:57px;
+  max-width:590px;
 }
