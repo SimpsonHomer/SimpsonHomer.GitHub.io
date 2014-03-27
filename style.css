@@ -2,7 +2,6 @@ header {
   padding-left:47px;
   font-family:calibri;
   margin:10px;
-  width:450px;
 }
 
 .h1{
@@ -10,32 +9,43 @@ header {
 }
 
 nav {
-  width:200px
-  float:right;
 }
 
 ul {
-  align:center;
   list-style-type: none;
+  padding-left:55px;
 }
 
 li {
-  display: inline;
+  display: inline-table;
   font-family:calibri;
-  border:solid;
-  border-width:1px;
-  margin:20px;
   padding-left:3px;
+  padding-right:3px;
+  position:relative;
+  overflow:hidden;
 }
 
 li:hover{
   color:red;
 }
 
-#links {
-  padding-right:3px;
+ul ul{
+  display:none;
+}
+
+ul ul li{
+  display:block;
+  color:black;
+  padding-left:0px;
+  padding-right:0px;
+  right:35px;
+}
+
+ul li:hover > ul{
+  display:block;
 }
 
 div {
+  font-family:calibri;
   padding-left:57px;
 }
