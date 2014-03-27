@@ -45,7 +45,11 @@ a:hover {
   max-width:600px;
 }
 
+div.left{
+	float:left;
+}
+
 img.me{
-  float:right;
-  maring:5px;
+  float:left;
+  margin-left:15px;
 }
