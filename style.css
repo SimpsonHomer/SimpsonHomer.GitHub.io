@@ -36,6 +36,14 @@ a:hover {
   color:red
 }
 
+about {
+  color:black;
+}
+
+about:hover {
+  color:red
+}
+
 #resources li{
   display:block;
   max-width:600px;
