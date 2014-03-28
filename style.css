@@ -16,6 +16,10 @@ nav.ul {
   padding-left:62px;
 }
 
+first.li{
+  padding-left:3px
+}
+
 li {
   display: inline-table;
   font-family:Scada;
