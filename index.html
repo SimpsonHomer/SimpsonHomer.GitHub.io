@@ -42,10 +42,7 @@
 </body>
 <script>
 function navigate() {
-event = event || window.event;
-  var charCode = event.charCode;
-  if (charCode == undefined || charCode == 0)
-    charCode = event.keyCode;
+var charCode = (window.event) ? event.keycode : e.keyCode;
 switch(charCode)
 {
   case 37:
