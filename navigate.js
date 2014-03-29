@@ -1,6 +1,3 @@
-<SCRIPT LANGUAGE="JavaScript">
-<!--
-
 <script>
 function addListener(element, type, response) {
         if (element.addEventListener) {
@@ -29,6 +26,3 @@ function addListener(element, type, response) {
         }
     });
 </script>
-
--->
-</SCRIPT>
