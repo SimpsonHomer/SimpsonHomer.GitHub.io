@@ -1,16 +1,21 @@
 <SCRIPT LANGUAGE="JavaScript">
 <!--
 
-addListener(window, "keypress", function(key) {
-key = key || window.event;
-var theKey = key.which || key.keyCode;
+function nav() {
 
-switch (theKey) {
-  case 37 :
-    window.location.href = "#prev";
-  case 39 :
-    window.location.href = "#next";
+event = event || window.event;
+  var charCode = event.charCode;
+  if (charCode == undefined || charCode === 0)
+    charCode = event.keyCode;
+
+if charCode == 37
+  window.location.href = "#prev";
+
+if charCode == 39
+  window.location.href = "#next";
 }
+
+element.addEventListener('click', nav() , false);
 
 -->
 </SCRIPT>
