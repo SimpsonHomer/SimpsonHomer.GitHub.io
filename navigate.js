@@ -9,7 +9,7 @@ event = event || window.event;
     charCode = event.keyCode;
 
 if charCode == "37"
-  window.location.href = "coreymcgrath.me/about.html";
+  window.location.href = "#prev";
 
 if charCode == "39"
   window.location.href = "#next";
