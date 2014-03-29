@@ -8,10 +8,10 @@ event = event || window.event;
   if (charCode == undefined || charCode === 0)
     charCode = event.keyCode;
 
-if charCode == 37
+if charCode == "37"
   window.location.href = "#prev";
 
-if charCode == 39
+if charCode == "39"
   window.location.href = "#next";
 }
 
