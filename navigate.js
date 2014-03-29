@@ -4,7 +4,7 @@ var theKey = key.which || key.keyCode;
 
 switch (theKey) {
   case 37 :
-    window.location = "#prev";
+    window.location.href = "#prev";
   case 39 :
-    window.location = "#next";
+    window.location.href = "#next";
 }
