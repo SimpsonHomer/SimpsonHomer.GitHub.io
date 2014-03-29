@@ -47,12 +47,14 @@ event = event || window.event;
   if (charCode == undefined || charCode == 0)
     charCode = event.keyCode;
 switch(charCode)
+{
   case 37:
-    window.location.href = "/links.html";
+    window.location = "/links.html";
     break;
   case 39:
-    window.location.href = "/about.html";
+    window.location = "/about.html";
     break;
+}
 }
 document.body.addEventListener('keypress', function() { navigate() }, false);
 </script>
