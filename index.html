@@ -41,7 +41,7 @@
 <img src="ruth.jpg"></img>
 </body>
 <script>
-function nav() {
+function navigate() {
 event = event || window.event;
   var charCode = event.charCode;
   if (charCode == undefined || charCode === 0)
@@ -51,6 +51,6 @@ if charCode == "37"
 if charCode == "39"
   window.location.href = "/about.html";
 }
-body.addEventListener('keypress', nav() , false);
+document.body.addEventListener('keypress', navigate() , false);
 </script>
 </html>
