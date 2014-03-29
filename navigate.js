@@ -1,4 +1,3 @@
-<script>
 function addListener(element, type, response) {
         if (element.addEventListener) {
             element.addEventListener(type, response, false);
@@ -25,4 +24,3 @@ function addListener(element, type, response) {
                 break;
         }
     });
-</script>
