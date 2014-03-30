@@ -11,11 +11,14 @@ h1{
   font-size:xx-large;
 }
 
-li {
+li{
   padding-left:3px;
   padding-right:3px;
   position:relative;
   overflow:hidden;
+}
+
+ul{
   display:inline-table;
 }
 
@@ -44,7 +47,7 @@ about:hover {
   color:red
 }
 
-ul.resources{
+resources{
   display:block;
   max-width:600px;
   padding-left:17px;
