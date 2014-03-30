@@ -16,9 +16,6 @@ li {
   padding-right:3px;
   position:relative;
   overflow:hidden;
-}
-
-li.menu{
   display:inline-table;
 }
 
