@@ -12,16 +12,15 @@ h1{
   font-size:xx-large;
 }
 
-ul{
-margin-top: 1.12em 0;
-}
-
 li {
-  display: inline-table;
   padding-left:3px;
   padding-right:3px;
   position:relative;
   overflow:hidden;
+}
+
+menu{
+display: inline-table;
 }
 
 div {
