@@ -44,8 +44,20 @@ about:hover {
   color:red
 }
 
-resources{
-  display:block;
+#resources li{
+ display:block;
+}
+
+.ul{
+  max-width:600px;
+  padding-left:17px;
+}
+
+#links li{
+ display:block;
+}
+
+.ul{
   max-width:600px;
   padding-left:17px;
 }
