@@ -4,7 +4,6 @@
 
 header {
   padding-left:47px;
-  font-family:Scada;
   margin:10px;
 }
 
@@ -19,8 +18,8 @@ li {
   overflow:hidden;
 }
 
-menu{
-  display: inline;
+li.menu{
+  display: inline-table;
 }
 
 div {
