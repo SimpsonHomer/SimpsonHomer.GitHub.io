@@ -12,7 +12,7 @@ h1{
   font-size:xx-large;
 }
 
-info > p {
+p {
 margin:0px;
 }
 
@@ -66,4 +66,8 @@ div.quicklinks{
 
 img.me{
   margin-left:50px;
+}
+
+#info p{
+margin:0px;
 }
