@@ -53,6 +53,7 @@ resources{
   display:block;
   max-width:600px;
   padding-left:17px
+  margin: 1.12em 0;
 }
 
 div.left{
@@ -69,21 +70,13 @@ img.me{
 }
 
 p{
-margin: 1.12em 0;
+  margin: 1.12em 0;
 }
 
 p.info{
-margin:0px;
+  margin:0px;
 }
 
 div.spacebelow{
-margin-bottom:120px;
-}
-
-ul.resources{
-margin: 1.12em 0;
-}
-
-li.resources{
-margin: 1.12em 0;
+  margin-bottom:120px;
 }
