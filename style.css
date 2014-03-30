@@ -12,6 +12,9 @@ h1{
   font-size:xx-large;
 }
 
+info > p {
+margin:0px;
+}
 
 li {
   display: inline-table;
