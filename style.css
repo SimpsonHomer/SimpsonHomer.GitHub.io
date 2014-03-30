@@ -69,9 +69,13 @@ img.me{
 }
 
 p{
-margin: 1.12em 0
+margin: 1.12em 0;
 }
 
 info{
 margin:0px;
+}
+
+spacebelow{
+margin-bottom:20px;
 }
