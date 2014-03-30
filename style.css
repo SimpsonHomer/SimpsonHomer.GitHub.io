@@ -68,6 +68,10 @@ img.me{
   margin-left:50px;
 }
 
+p{
+margin:initial
+}
+
 #info p{
 margin:0px;
 }
