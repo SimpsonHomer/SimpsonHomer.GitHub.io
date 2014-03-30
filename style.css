@@ -49,11 +49,11 @@ about:hover {
   color:red
 }
 
-resources{
+ul.resources{
   display:block;
   max-width:600px;
-  padding-left:17px
-  margin: 1.12em 0;
+  padding-left:17px;
+  margin-bottom: 1.12em 0;
 }
 
 div.left{
