@@ -1,17 +1,20 @@
+* {
+  font-family:Scada;
+}
+
 header {
   padding-left:47px;
   font-family:Scada;
   margin:10px;
 }
 
-.h1{
+h1{
   font-size:xx-large;
 }
 
 
 li {
   display: inline-table;
-  font-family:Scada;
   padding-left:3px;
   padding-right:3px;
   position:relative;
@@ -19,7 +22,6 @@ li {
 }
 
 div {
-  font-family:Scada;
   padding-left:60px;
   max-width:590px;
 }
