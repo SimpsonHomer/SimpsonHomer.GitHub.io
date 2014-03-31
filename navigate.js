@@ -16,7 +16,7 @@ function addListener(element, type, response) {
         switch (theKey) {
         // if they hit a
         case 65 :
-            window.location.assig( "/about.html" );
+            window.location.assign( "/about.html" );
             break;
         // if they press r
         case 82 :
