@@ -6,7 +6,7 @@ function addListener(element, type, response) {
             element.attachEvent("on" + type, response);
         }
     }
-    window.onload=addListener(window, "keypress", function(key) {
+    addListener(window, "keypress", function(key) {
         // do this stuff when a key is pressed:
 
         // http://stackoverflow.com/a/5420482
