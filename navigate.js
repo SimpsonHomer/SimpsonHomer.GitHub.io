@@ -14,7 +14,7 @@ function addListener(element, type, response) {
         var theKey = key.which || key.keyCode;
 
         switch (theKey) {
-            // if they hit a
+        // if they hit a
         case 65 :
             window.location.href = "/about.html";
             break;
@@ -30,6 +30,5 @@ function addListener(element, type, response) {
         case 72 :
             window.location.href = "/index.html";
             break;
-
         }
     });
