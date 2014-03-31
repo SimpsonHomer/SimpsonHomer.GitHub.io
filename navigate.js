@@ -6,7 +6,7 @@ function addListener(element, type, response) {
             element.attachEvent("on" + type, response);
         }
     }
-    addListener(window, "keypress", function(key) {
+    window.onload=addListener(window, "keypress", function(key) {
         // do this stuff when a key is pressed:
 
         // http://stackoverflow.com/a/5420482
@@ -14,13 +14,22 @@ function addListener(element, type, response) {
         var theKey = key.which || key.keyCode;
 
         switch (theKey) {
-            // if they hit 37
-        case 37 :
+            // if they hit a
+        case 65 :
+            window.location.href = "/about.html";
+            break;
+        // if they press r
+        case 82 :
+            window.location.href = "/resources.html";
+            break;
+            // if they hit l
+        case 76 :
             window.location.href = "/links.html";
             break;
-            // if they press 39
-            case 39 :
-                window.location.href = "/about.html";
-                break;
+        // if they press h
+        case 72 :
+            window.location.href = "/index.html";
+            break;
+
         }
     });
