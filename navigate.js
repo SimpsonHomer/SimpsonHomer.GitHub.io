@@ -16,19 +16,19 @@ function addListener(element, type, response) {
         switch (theKey) {
         // if they hit a
         case 65 :
-            window.location.href = "/about.html";
+            window.location.assign = "/about.html";
             break;
         // if they press r
         case 82 :
-            window.location.href = "/resources.html";
+            window.location.assign = "/resources.html";
             break;
             // if they hit l
         case 76 :
-            window.location.href = "/links.html";
+            window.location.assign = "/links.html";
             break;
         // if they press h
         case 72 :
-            window.location.href = "/index.html";
+            window.location.assign = "/index.html";
             break;
         }
     });
