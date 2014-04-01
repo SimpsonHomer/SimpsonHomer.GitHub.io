@@ -9,26 +9,25 @@ function addListener(element, type, response) {
     addListener(window, "keypress", function(key) {
         // do this stuff when a key is pressed:
 
-        // http://stackoverflow.com/a/5420482
         key = key || window.event;
         var theKey = key.which || key.keyCode;
 
         switch (theKey) {
         // if they hit a
         case 65 :
-            window.location.assign( "/about.html" );
+            window.location.href = "/about.html";
             break;
         // if they press r
         case 82 :
-            window.location.assign( "/resources.html" );
+            window.location.href = "/resources.html";
             break;
             // if they hit l
         case 76 :
-            window.location.assign( "/links.html" );
+            window.location.href = "/links.html";
             break;
         // if they press h
         case 72 :
-            window.location.assign( "/index.html" );
+            window.location.href = "/index.html";
             break;
         }
     });
