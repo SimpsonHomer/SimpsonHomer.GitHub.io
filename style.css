@@ -94,3 +94,11 @@ p.list{
 div.spacebelow{
   margin-bottom:120px;
 }
+
+div.instructions{
+  float:right;
+  width:150px;
+  height:150px;
+  margin-right:75px;
+  text-align:right;
+}
