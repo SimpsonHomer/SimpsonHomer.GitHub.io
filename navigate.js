@@ -14,19 +14,19 @@ function addListener(element, type, response) {
 
         switch (theKey) {
         // if they hit a
-        case 65 :
+        case 97 :
             window.location.href = "/about.html";
             break;
         // if they press r
-        case 82 :
+        case 114 :
             window.location.href = "/resources.html";
             break;
             // if they hit l
-        case 76 :
+        case 108 :
             window.location.href = "/links.html";
             break;
         // if they press h
-        case 72 :
+        case 104 :
             window.location.href = "/index.html";
             break;
         }
