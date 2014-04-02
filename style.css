@@ -83,6 +83,14 @@ p.info{
   margin:0px;
 }
 
+p.indent{
+  margin:0 17px 1.12em;
+}
+
+p.list{
+  margin:0 17px;
+}
+
 div.spacebelow{
   margin-bottom:120px;
 }
