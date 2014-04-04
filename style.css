@@ -1,5 +1,10 @@
 * {
   font-family:Scada;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 header {
@@ -153,13 +158,4 @@ div.instructions{
   100%{
     font-size: 17px;
   }
-}
-
-disappear{
--webkit-transition: opacity 1s ease-in-out;
--moz-transition: opacity 1s ease-in-out;
--o-transition: opacity 1s ease-in-out;
--ms-transition: opacity 1s ease-in-out;
-transition: opacity 1s ease-in-out;
-opacity:0
 }
