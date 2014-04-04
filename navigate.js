@@ -15,23 +15,41 @@ function addListener(element, type, response) {
         switch (theKey) {
         // if they hit a
         case 97 :
-	    document.body.fade.style.opacity = "0";
+	    var myObj = document.getElementsByClassName('fade');
+	    for(var i=0; i<myObj.length; i++){
+		myObj[i].style['opacity'] = '0';
+	    }
             window.location.href = "/about.html";
             break;
         // if they press r
         case 114 :
-	    document.body.fade.style.opacity = "0";
+	    var myObj = document.getElementsByClassName('fade');
+	    for(var i=0; i<myObj.length; i++){
+		myObj[i].style['opacity'] = '0';
+	    }
             window.location.href = "/resources.html";
             break;
             // if they hit l
         case 108 :
-	    document.body.fade.style.opacity = "0";
+	    var myObj = document.getElementsByClassName('fade');
+	    for(var i=0; i<myObj.length; i++){
+		myObj[i].style['opacity'] = '0';
+	    }
             window.location.href = "/links.html";
             break;
         // if they press h
         case 104 :
-	    document.body.fade.style.opacity = "0";
+	    var myObj = document.getElementsByClassName('fade');
+	    for(var i=0; i<myObj.length; i++){
+		myObj[i].style['opacity'] = '0';
+	    }
             window.location.href = "/index.html";
             break;
         }
     });
+
+onload = {
+var myObj = document.getElementsByClassName('fade');
+for(var i=0; i<myObj.length; i++){
+    myObj[i].style['opacity'] = '1';
+}

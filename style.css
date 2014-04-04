@@ -159,3 +159,7 @@ div.instructions{
     font-size: 17px;
   }
 }
+
+fade{
+  opacity:0;
+}
