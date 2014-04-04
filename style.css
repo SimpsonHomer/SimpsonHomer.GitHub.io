@@ -34,7 +34,6 @@ a {
 
 a:hover {
   color:red;
-  -webkit-animation: popfont .6s;
 }
 
 about {
@@ -118,4 +117,49 @@ div.instructions{
   100%{
     font-size: 17px;
   }
+}
+
+@-moz-keyframes popfont{
+0% {
+    font-size: 16px;
+  }
+  50% {
+    font-size: 25px;
+  }
+  100%{
+    font-size: 17px;
+  }
+}
+
+@-o-keyframes popfont{
+0% {
+    font-size: 16px;
+  }
+  50% {
+    font-size: 25px;
+  }
+  100%{
+    font-size: 17px;
+  }
+}
+
+@-ms-keyframes popfont{
+0% {
+    font-size: 16px;
+  }
+  50% {
+    font-size: 25px;
+  }
+  100%{
+    font-size: 17px;
+  }
+}
+
+disappear{
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+-ms-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+opacity:0
 }
