@@ -47,8 +47,3 @@ function addListener(element, type, response) {
             break;
         }
     });
-
- var myObj = document.getElementsByClassName('fade');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '1';
-	    }
