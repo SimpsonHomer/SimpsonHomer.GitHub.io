@@ -19,7 +19,7 @@ function addListener(element, type, response) {
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
-            window.location.href = "/about.html";
+            setTimeout(function(){window.location.href = "/about.html"},1000);
             break;
         // if they press r
         case 114 :
@@ -27,7 +27,7 @@ function addListener(element, type, response) {
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
-            window.location.href = "/resources.html";
+            setTimeout(function(){window.location.href = "/resources.html"},1000);
             break;
             // if they hit l
         case 108 :
@@ -35,7 +35,7 @@ function addListener(element, type, response) {
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
-            window.location.href = "/links.html";
+            setTimeout(function(){window.location.href = "/links.html"},1000);
             break;
         // if they press h
         case 104 :
@@ -43,7 +43,12 @@ function addListener(element, type, response) {
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
-            window.location.href = "/index.html";
+            setTimeout(function(){window.location.href = "/index.html"),1000);
             break;
         }
     });
+
+ var myObj = document.getElementsByClassName('fade');
+	    for(var i=0; i<myObj.length; i++){
+		myObj[i].style['opacity'] = '1';
+	    }
