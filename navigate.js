@@ -75,5 +75,5 @@ setTimeout(function(){document.getElementsByClassName="fadelater".style.animatio
 }
 
 function delay (URL) {
-    setTimeout( function() { window.location = URL }, 150 );
+    setTimeout( function() { window.location.href = URL }, 150 );
 }
