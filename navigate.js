@@ -69,8 +69,3 @@ document.getElementsByClassName('about').onclick = fadeandgotoabout;
 document.getElementsByClassName('resources').onclick = fadeandgotoresources;
 document.getElementsByClassName('links').onclick = fadeandgotolinks;
 document.getElementsByClassName('home').onclick = fadeandgotoindex;
-
-function fixfade() {
-setTimeout(function(){document.getElementsByClassName('fadelater').className = document.getElementsByClassName('fadelater').className.replace(/\bfadelater\/b,'')}, 750);
-
-window.onload = fixfade;
