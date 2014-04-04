@@ -3,7 +3,7 @@ var myObj = document.getElementsByClassName('fade');
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
-            setTimeout(function(){window.location.href = "/about.html"},1000);
+            setTimeout(function(){window.location.href = "/about.html"},500);
 }
 
 function fadeandgotoresources(){
@@ -11,7 +11,7 @@ var myObj = document.getElementsByClassName('fade');
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
-            setTimeout(function(){window.location.href = "/resources.html"},1000);
+            setTimeout(function(){window.location.href = "/resources.html"},500);
 }
 
 function fadeandgotoindex(){
@@ -19,7 +19,7 @@ var myObj = document.getElementsByClassName('fade');
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
-            setTimeout(function(){window.location.href = "/index.html"},1000);
+            setTimeout(function(){window.location.href = "/index.html"},500);
 }
 
 function fadeandgotolinks(){
@@ -27,7 +27,7 @@ var myObj = document.getElementsByClassName('fade');
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
-            setTimeout(function(){window.location.href = "/links.html"},1000);
+            setTimeout(function(){window.location.href = "/links.html"},500);
 }
 
 function addListener(element, type, response) {
