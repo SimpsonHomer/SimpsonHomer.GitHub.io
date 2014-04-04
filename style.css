@@ -33,7 +33,7 @@ a {
 }
 
 a:hover {
-  color:red
+  color:red;
   -webkit-animation: popfont .6s;
 }
 
