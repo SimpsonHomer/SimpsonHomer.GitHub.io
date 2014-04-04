@@ -64,3 +64,11 @@ function addListener(element, type, response) {
             break;
         }
     });
+
+addListener(document.getElementbyClassName("about"), "click", fadeandgotoabout())
+
+addListener(document.getElementbyClassName("resources"), "click", fadeandgotoresources())
+
+addListener(document.getElementbyClassName("links"), "click", fadeandgotolinks())
+
+addListener(document.getElementbyClassName("home"), "click", fadeandgotoindex())
