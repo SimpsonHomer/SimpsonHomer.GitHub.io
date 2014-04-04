@@ -34,6 +34,7 @@ a {
 
 a:hover {
   color:red
+  -webkit-animation: popfont .6s;
 }
 
 about {
@@ -105,4 +106,16 @@ div.instructions{
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
   .instructions { display: none; }  /* no  nav instructions on small screens */
+}
+
+@-webkit-keyframes popfont{
+  0% {
+    font-size: 16px;
+  }
+  50% {
+    font-size: 25px;
+  }
+  100%{
+    font-size: 17px;
+  }
 }
