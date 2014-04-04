@@ -106,3 +106,13 @@ div.instructions{
 @media screen and (min-width: 0px) and (max-width: 400px) {
   .instructions { display: none; }  /* no  nav instructions on small screens */
 }
+
+ruth{
+	-webkit-animation:move;
+}
+
+@webkit-keyframe move
+{
+	from -webkit-transform: rotate(0deg);
+	to -webkit-transformL: rotate(360deg);
+}
