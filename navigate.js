@@ -65,10 +65,10 @@ function addListener(element, type, response) {
         }
     });
 
-addListener(document.getElementbyClassName("about"), "click", fadeandgotoabout())
+addListener(document.getElementsByClassName("about"), "click", fadeandgotoabout())
 
-addListener(document.getElementbyClassName("resources"), "click", fadeandgotoresources())
+addListener(document.getElementsByClassName("resources"), "click", fadeandgotoresources())
 
-addListener(document.getElementbyClassName("links"), "click", fadeandgotolinks())
+addListener(document.getElementsByClassName("links"), "click", fadeandgotolinks())
 
-addListener(document.getElementbyClassName("home"), "click", fadeandgotoindex())
+addListener(document.getElementsByClassName("home"), "click", fadeandgotoindex())
