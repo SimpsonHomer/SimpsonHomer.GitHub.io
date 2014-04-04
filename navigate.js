@@ -43,7 +43,7 @@ function addListener(element, type, response) {
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
-            setTimeout(function(){window.location.href = "/index.html"),1000);
+            setTimeout(function(){window.location.href = "/index.html"},1000);
             break;
         }
     });
