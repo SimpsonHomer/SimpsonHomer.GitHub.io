@@ -65,10 +65,7 @@ function addListener(element, type, response) {
         }
     });
 
-addListener(document.getElementsByClassName("about"), "click", fadeandgotoabout())
-
-addListener(document.getElementsByClassName("resources"), "click", fadeandgotoresources())
-
-addListener(document.getElementsByClassName("links"), "click", fadeandgotolinks())
-
-addListener(document.getElementsByClassName("home"), "click", fadeandgotoindex())
+document.getElementsByClassName('about').onclick = fadeandgotoabout;
+document.getElementsByClassName('resources').onclick = fadeandgotoresources;
+document.getElementsByClassName('links').onclick = fadeandgotolinks;
+document.getElementsByClassName('home').onclick = fadeandgotoindex;
