@@ -70,9 +70,9 @@ document.getElementsByClassName('resources').onclick = fadeandgotoresources;
 document.getElementsByClassName('links').onclick = fadeandgotolinks;
 document.getElementsByClassName('home').onclick = fadeandgotoindex;
 
-window.onload = {
+/* window.onload = {
 setTimeout(function(){document.getElementsByClassName="fadelater".style.animation-delay='0';},2000)
-}
+} */
 
 function delay (URL) {
     setTimeout( function() { window.location.href = URL }, 150 );
