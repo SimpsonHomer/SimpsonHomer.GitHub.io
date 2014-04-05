@@ -177,6 +177,15 @@ div.instructions{
 	    animation-delay:.75s
 }
 
+.fadelatest{
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+	    animation-delay:1.5s
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
