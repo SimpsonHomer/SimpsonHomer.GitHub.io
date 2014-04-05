@@ -65,6 +65,5 @@ function addListener(element, type, response) {
         }
     });
 
-/* window.onload = {
+window.onload = 
 setTimeout(function(){document.getElementsByClassName="fadelater".style.animation-delay='0';},2000)
-} */
