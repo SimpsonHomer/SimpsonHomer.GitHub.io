@@ -7,6 +7,10 @@ var myObj = document.getElementsByClassName('fadelater');
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
+var myObj = document.getElementsByClassName('fadelatest');
+	    for(var i=0; i<myObj.length; i++){
+		myObj[i].style['opacity'] = '0';
+	    }
             setTimeout(function(){window.location.href = "/about.html"},200);
 }
 
@@ -16,6 +20,10 @@ var myObj = document.getElementsByClassName('fade');
 		myObj[i].style['opacity'] = '0';
 	    }
 var myObj = document.getElementsByClassName('fadelater');
+	    for(var i=0; i<myObj.length; i++){
+		myObj[i].style['opacity'] = '0';
+	    }
+var myObj = document.getElementsByClassName('fadelatest');
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
@@ -31,6 +39,10 @@ var myObj = document.getElementsByClassName('fadelater');
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
+var myObj = document.getElementsByClassName('fadelatest');
+	    for(var i=0; i<myObj.length; i++){
+		myObj[i].style['opacity'] = '0';
+	    }
             setTimeout(function(){window.location.href = "/index.html"},200);
 }
 
@@ -40,6 +52,10 @@ var myObj = document.getElementsByClassName('fade');
 		myObj[i].style['opacity'] = '0';
 	    }
 var myObj = document.getElementsByClassName('fadelater');
+	    for(var i=0; i<myObj.length; i++){
+		myObj[i].style['opacity'] = '0';
+	    }
+var myObj = document.getElementsByClassName('fadelatest');
 	    for(var i=0; i<myObj.length; i++){
 		myObj[i].style['opacity'] = '0';
 	    }
