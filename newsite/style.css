@@ -1,0 +1,48 @@
+body{
+  background-image:url("http://i.imgur.com/DT6H0ID.jpg");
+  background-size:1388.4px 935.35px;
+  background-repeat:no-repeat;
+}
+
+.instructions{
+  float:right;
+}
+
+.instructions > p{
+  margin:0px;
+  text-align:right;
+}
+
+.nav > ul{
+  list-style-type:none;
+}
+
+.nav > ul > li{
+  display:inline-table;
+}
+
+a{
+  color:black;
+  font-weight:bold;
+}
+
+a:hover{
+  color:red;
+}
+
+.spacebelow{
+  margin-bottom:95px;
+}
+
+.spacebelow > p{
+  margin:0px;
+}
+
+header{
+  margin-top:75px;
+  margin-left:37px;
+}
+
+div:not(.nav) {
+  margin-left:37px;
+}
