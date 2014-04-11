@@ -58,3 +58,6 @@ img.me{
   margin-top:65px;
   margin-right:250px;
 }
+
+@media screen and (max-width: 480px) {
+	img[class="me"] div[class="instructions"]{display:none !important;}
