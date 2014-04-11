@@ -1,0 +1,111 @@
+*{
+  font-family:Scada;
+  -webkit-transition: opacity .15s ease-in-out;
+  -moz-transition: opacity .15s ease-in-out;
+  -o-transition: opacity .15s ease-in-out;
+  -ms-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+}
+
+body{
+}
+
+.instructions{
+  float:right;
+  margin-right:60px;
+}
+
+.instructions > p{
+  margin:0px;
+  text-align:right;
+}
+
+ul{
+  list-style-type:none;
+}
+
+.nav > ul > li{
+  display:inline-table;
+  margin-right:7px;
+}
+
+a{
+  color:black;
+}
+
+a:hover{
+  color:red;
+}
+
+.spacebelow{
+  margin-bottom:95px;
+}
+
+.spacebelow > p{
+  margin:0px;
+}
+
+header{
+  margin-top:75px;
+  margin-left:37px;
+}
+
+div:not(.nav) {
+  margin-left:37px;
+}
+
+div:not(.spacebelow){
+  max-width:650px;
+}
+
+img.me{
+  margin-left:50px;
+}
+
+.fade{
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s
+}
+
+.fadelater{
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+	    animation-delay:.75s
+}
+
+.fadelatest{
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+       -moz-animation: fadein 1s; /* Firefox */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera */
+            animation: fadein 1s;
+	    animation-delay:1.5s
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
