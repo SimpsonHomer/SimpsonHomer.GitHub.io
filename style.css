@@ -57,6 +57,7 @@ img.me{
   float:right;
   margin-top:65px;
   margin-right:250px;
+  max-width:100%;
 }
 
 @media screen and (max-width: 480px) {
