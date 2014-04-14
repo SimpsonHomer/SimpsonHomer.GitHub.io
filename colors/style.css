@@ -66,4 +66,4 @@ div > p{
 }
 
 @media screen and (max-width: 480px) {
-	 nav > ul{padding-left:0px list-style-type:block !important;}
+	 ul[class="nav"]{padding-left:0px !important;}
