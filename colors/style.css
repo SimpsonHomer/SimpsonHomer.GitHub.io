@@ -16,11 +16,12 @@ header{
 
 header > h2{
   float:left;
+  padding-left:10px;
 }
 
 nav > ul{
   list-style-type:none;
-  padding-left:250px;
+  padding-left:240px;
   overflow:hidden;
 }
 
@@ -49,10 +50,6 @@ div.left{
   float:left;
   border:solid;
   background-color:inherit;
-}
-
-div.container{
-  padding:38px;
 }
 
 div.right{
