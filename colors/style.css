@@ -65,11 +65,33 @@ div > p{
   margin:0;
 }
 
+div.mobile{
+  background-color:#006B53;
+  padding:0px;
+  margin:0px;
+}
+
+ul.mobilenav{
+  display:none;
+  list-style-type:none;
+  overflow:hidden;
+  padding:17px;
+}
+
+ul.mobilenav > li{
+  display:inline-table;
+  background-color:#00A480;
+  padding: 7px 5px 5px;
+  margin:0px 10px 15px;
+  border-radius:5px;
+}
+
+
 @media all and (max-width: 775px) {
 	 ul[class="nav"]{padding-left:0px !important;}
 }
 
 @media all and (max-width: 530px) {
-    header{height:115px !important;}
-    li{margin: 0 10px 15px !important;}
+	 ul[class="nav"]{display:none !important;}
+ ul[class="mobilenav"]{display:initial !important}
 }
