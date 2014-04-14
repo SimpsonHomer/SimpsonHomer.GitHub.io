@@ -88,12 +88,12 @@ ul.mobilenav > li{
 
 
 @media screen and (max-width: 775px) {
-	 ul[class="nav"]{padding-left:0px !important;}
+	 nav > ul{padding-left:0px !important;}
 }
 
 @media screen and (max-width: 530px) {
-	 ul[class="nav"]{display:none !important;}
- ul[class="mobilenav"]{display:initial !important}
+	 nav > ul{display:none !important;}
+	 ul[class="mobilenav"]{display:initial !important}
 }
 
 @media screen and (max-width: 480px) {
