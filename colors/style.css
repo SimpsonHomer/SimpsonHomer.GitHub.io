@@ -68,3 +68,7 @@ div > p{
 @media all and (max-width: 775px) {
 	 ul[class="nav"]{padding-left:0px !important;}
 }
+
+@media all and (max-width: 530px) {
+    header{height:115px !important;}
+}
