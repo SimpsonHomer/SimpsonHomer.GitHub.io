@@ -95,3 +95,7 @@ ul.mobilenav > li{
 	 ul[class="nav"]{display:none !important;}
  ul[class="mobilenav"]{display:initial !important}
 }
+
+@media screen and (max-width: 480px) {
+	 ul.mobilenav > li{margin:0px !important;}
+}
