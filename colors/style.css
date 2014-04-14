@@ -71,4 +71,5 @@ div > p{
 
 @media all and (max-width: 530px) {
     header{height:115px !important;}
+    li{margin: 0 10px 15px !important;}
 }
