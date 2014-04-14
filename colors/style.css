@@ -1,0 +1,66 @@
+*{
+  font-family:Scada;
+}
+
+body{
+  
+}
+
+header{
+  background-color:#006B53;
+  height:70px;
+  padding-top:7px;
+  padding-left:25px;;
+  color:#3BDA00;
+}
+
+header > h2{
+  float:left;
+}
+
+nav > ul{
+  list-style-type:none;
+  padding-left:250px;
+  overflow:hidden;
+}
+
+nav > ul > li{
+  display:inline-table;
+  background-color:#00A480;
+  margin:22px 10px 15px;
+  padding:7px 5px 5px;
+  border-radius:5px;
+}
+
+a{
+  color:#284C7D;
+}
+
+a:hover{
+  color:#05316D;
+}
+
+main{
+  background-color:#FFA873;
+}
+
+div.left{
+  padding:35px;
+  float:left;
+  border:solid;
+  background-color:inherit;
+}
+
+div.container{
+  padding:38px;
+}
+
+div.right{
+  padding:38px;
+  background-color:inherit;
+  overflow:hidden;
+}
+
+div > p{
+  margin:0;
+}
