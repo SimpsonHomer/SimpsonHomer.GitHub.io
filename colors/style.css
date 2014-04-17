@@ -2,15 +2,21 @@
   font-family:Scada;
 }
 
+html{
+  margin:0px;
+}
+
 body{
-  
+  background:#FFA873;
+  margin:0px;
 }
 
 header{
-  background-color:#006B53;
+  background:#006B53;
   height:70px;
   padding-top:7px;
-  padding-left:25px;;
+  padding-left:25px;
+  margin:0px;
   color:#3BDA00;
 }
 
@@ -27,22 +33,21 @@ nav > ul{
 
 nav > ul > li{
   display:inline-table;
-  background-color:#00A480;
+  background-color:#5DD0C0;
   margin:22px 10px 15px;
   padding:7px 5px 5px;
   border-radius:5px;
 }
 
 a{
-  color:#284C7D;
+  color:#006F48;
 }
 
 a:hover{
-  color:#05316D;
+  color:#ffffff;
 }
 
 main{
-  background-color:#FFA873;
 }
 
 div.left{
@@ -83,9 +88,12 @@ ul.mobilenav > li{
   border-radius:5px;
 }
 
-
 @media screen and (max-width: 775px) {
 	 nav > ul{padding-left:0px !important;}
+}
+
+@media screen and (max-width:600px) {
+  div[class="right"]{float:left !important;}
 }
 
 @media screen and (max-width: 530px) {
