@@ -1,5 +1,3 @@
-window.onload = function() {var j = 0};
-
 function fadeandgotoabout(){
 if j == 0 {
     var myObj = document.getElementsByClassName('fade');
@@ -82,6 +80,7 @@ var myObj = document.getElementsByClassName('fade');
 		}
 
 function addListener(element, type, response) {
+    var j = 0;
         if (element.addEventListener) {
             element.addEventListener(type, response, false);
         }
