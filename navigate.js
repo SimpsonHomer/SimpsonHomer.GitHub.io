@@ -1,66 +1,85 @@
+window.onload = function() {var j = 0};
+
 function fadeandgotoabout(){
-var myObj = document.getElementsByClassName('fade');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-var myObj = document.getElementsByClassName('fadelater');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-var myObj = document.getElementsByClassName('fadelatest');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-            setTimeout(function(){window.location.href = "/about.html"},200);
+if j == 0 {
+    var myObj = document.getElementsByClassName('fade');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+    var myObj = document.getElementsByClassName('fadelater');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+    var myObj = document.getElementsByClassName('fadelatest');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+}
+    setTimeout(function(){window.location.href = "/about.html"},200);
 }
 
 function fadeandgotoresources(){
-var myObj = document.getElementsByClassName('fade');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-var myObj = document.getElementsByClassName('fadelater');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-var myObj = document.getElementsByClassName('fadelatest');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
+if j == 0 {
+    var myObj = document.getElementsByClassName('fade');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+    var myObj = document.getElementsByClassName('fadelater');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+    var myObj = document.getElementsByClassName('fadelatest');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+}
             setTimeout(function(){window.location.href = "/resources.html"},200);
 }
 
 function fadeandgotoindex(){
-var myObj = document.getElementsByClassName('fade');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-var myObj = document.getElementsByClassName('fadelater');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-var myObj = document.getElementsByClassName('fadelatest');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-            setTimeout(function(){window.location.href = "/index.html"},200);
+if j == 0 {
+    var myObj = document.getElementsByClassName('fade');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+    var myObj = document.getElementsByClassName('fadelater');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+    var myObj = document.getElementsByClassName('fadelatest');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+}
+    setTimeout(function(){window.location.href = "/index.html"},200);
 }
 
 function fadeandgotolinks(){
-var myObj = document.getElementsByClassName('fade');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-var myObj = document.getElementsByClassName('fadelater');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
+if j == 0 {
+    var myObj = document.getElementsByClassName('fade');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
+    var myObj = document.getElementsByClassName('fadelater');
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
 var myObj = document.getElementsByClassName('fadelatest');
-	    for(var i=0; i<myObj.length; i++){
-		myObj[i].style['opacity'] = '0';
-	    }
-            setTimeout(function(){window.location.href = "/links.html"},200);
+    for(var i=0; i<myObj.length; i++){
+	myObj[i].style['opacity'] = '0';
+    }
 }
+    setTimeout(function(){window.location.href = "/links.html"},200);
+}
+
+function turnofffade(){
+var myObj = document.getElementsByClassName('fade');
+            if j == 0 {
+		j = 1
+		}
+            else {
+		j = 0
+		}
 
 function addListener(element, type, response) {
         if (element.addEventListener) {
@@ -94,5 +113,9 @@ function addListener(element, type, response) {
         case 104 :
 	    fadeandgotoindex()
             break;
+	// if they press space
+	case 32:
+	    turnofffade()
+	    break;
         }
     });
