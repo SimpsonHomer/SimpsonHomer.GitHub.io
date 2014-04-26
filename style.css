@@ -1,5 +1,8 @@
 *{
   font-family:Scada;
+  animation: fadein .15s;
+  -webkit-animation: fadein .15s;
+  -moz-animation: fadein .15s;
 }
 
 body{
@@ -60,5 +63,53 @@ img.me{
   max-width:100%;
 }
 
+fade{
+  animation: fadeout .15s;
+  -webkit-animation: fadeout .15s;
+  -moz-animation: fadeout .15s;
+}
+
+fadelater{
+  animation: fadeout .25s;
+  -webkit-animation: fadeout .25s;
+  -moz-animation: fadeout .25s;
+}
+
+fadelatest{
+  animation: fadeout .35s
+  -webkit-animation: fadeout .35s;
+  -moz-animation: fadeout .35s;
+}
+
 @media screen and (max-width: 480px) {
 	img[class="me"] div[class="instructions"]{display:none !important;}
+
+@keyframes fadeout{
+from {opacity: 1;}
+to {opacity: 0;}
+}
+
+@-webkit-keyframes fadeout{
+from {opacity: 1;}
+to {opacity: 0;}
+}
+
+@-moz-keyframes fadeout{
+from {opacity: 1;}
+to {opacity: 0;}
+}
+
+@keyframes fadein{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@-webkit-keyframes fadein{
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@-moz-keyframes fadein{
+from {opacity: 0;}
+to {opacity: 1;}
+}
