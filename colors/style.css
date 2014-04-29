@@ -9,6 +9,8 @@ html{
 body{
   background:#FFA873;
   margin:0px;
+  min-height:100%;
+  overflow:hidden;
 }
 
 header{
@@ -58,13 +60,23 @@ div.left{
 }
 
 div.right{
-  padding:38px;
+  padding:38px 38px 0 38px;
   background-color:inherit;
   overflow:hidden;
 }
 
-div > p{
+div.left > p{
   margin:0;
+}
+
+div.right > p{
+  margin-top:0;
+}
+
+div.bottom{
+  padding:10px 0px 0px 0px;
+  margin-left:38px;
+  margin-right:50px;;
 }
 
 div.mobile{
@@ -86,6 +98,19 @@ ul.mobilenav > li{
   padding: 7px 5px 5px;
   margin:0px 10px 15px;
   border-radius:5px;
+}
+
+footer{
+  position:absolute;
+  width:100%;
+  height:20px;
+  bottom:0;
+  overflow:hidden;
+  background:#006B53;
+  padding-top:7px;
+  padding-left:25px;
+  margin:0px;
+  color:#3BDA00;
 }
 
 @media screen and (max-width: 775px) {
