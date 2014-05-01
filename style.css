@@ -84,7 +84,8 @@ fadelatest{
 }
 
 @media screen and (max-width: 480px) {
-	img[class="me"] div[class="instructions"]{display:none !important;}
+	div[class="instructions"]{display:none !important;}
+}
 
 @keyframes fadeout{
 from {opacity: 1;}
