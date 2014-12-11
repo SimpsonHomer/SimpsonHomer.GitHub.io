@@ -62,6 +62,10 @@ var myObj = document.getElementsByClassName('fadelatest');
             setTimeout(function(){window.location.href = "/links.html"},200);
 }
 
+function chuckify(){
+document.body.style.backgroundImage="url('chuckface.jpeg')";
+}
+
 function addListener(element, type, response) {
         if (element.addEventListener) {
             element.addEventListener(type, response, false);
@@ -94,5 +98,8 @@ function addListener(element, type, response) {
         case 104 :
 	    fadeandgotoindex()
             break;
+	case 67 :
+	    chuckify()
+	    break;
         }
     });
