@@ -74,7 +74,7 @@ document.body.style.backgroundImage="url('chuckface.jpg')";
 }
 
 function ruthspin(){
-var ruth = document.getElementsbyClassName('ruth');
+var ruth = document.getElementsByClassName('ruth');
     ruth.style.Transition="rotate(36000deg)";
     ruth.style.WebkitTransition="rotate(36000deg)";
     ruth.style.MozTransition="rotate(36000deg)";
