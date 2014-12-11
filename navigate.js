@@ -73,6 +73,14 @@ document.body.style.backgroundPosition="center";
 document.body.style.backgroundImage="url('chuckface.jpg')";
 }
 
+function chuckspin(){
+document.body.style.Transition="rotate(360deg)";
+document.body.style.WebkitTransition="rotate(360deg)";
+document.body.style.MozTransition="rotate(360deg)";
+document.body.style.OTransition="rotate(360deg)";
+document.body.style.msTransition="rotate(360deg)";
+}
+
 function addListener(element, type, response) {
         if (element.addEventListener) {
             element.addEventListener(type, response, false);
@@ -107,6 +115,9 @@ function addListener(element, type, response) {
             break;
 	case 67 :
 	    chuckify()
+	    break;
+	case 72 :
+	    chuckspin();
 	    break;
         }
     });
