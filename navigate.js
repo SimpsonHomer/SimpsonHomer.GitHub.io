@@ -77,6 +77,7 @@ function ruthspin(){
 for(var i=0; i<36000; i++){
 document.getElementById('ruth').style.Transition="rotate(" + i +"deg)";
 }
+}
 
 function addListener(element, type, response) {
         if (element.addEventListener) {
