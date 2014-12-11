@@ -63,6 +63,8 @@ var myObj = document.getElementsByClassName('fadelatest');
 }
 
 function chuckify(){
+document.body.style.backgroundRepeat="no-repeat";
+document.body.style.backgroundPosition="center";
 document.body.style.backgroundImage="url('chuckface.jpg')";
 }
 
