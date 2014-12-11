@@ -74,14 +74,8 @@ document.body.style.backgroundImage="url('chuckface.jpg')";
 }
 
 function ruthspin(){
-var ruth = document.getElementsByClassName('ruth');
-for(var i=0; i<ruth.length; i++){
-		ruth[i].style['Transition'] = 'rotate(36000deg)';
-                ruth[i].style['WebkitTransition'] = 'rotate(36000deg)';
-                ruth[i].style['MozTransition'] = 'rotate(36000deg)';
-                ruth[i].style['OTransition'] = 'rotate(36000deg)';
-                ruth[i].style['msTransition'] = 'rotate(36000deg)';
-	    }
+for(var i=0; i<36000; i++){
+document.getElementById('ruth').style.Transition="rotate(" + i +"deg)";
 }
 
 function addListener(element, type, response) {
