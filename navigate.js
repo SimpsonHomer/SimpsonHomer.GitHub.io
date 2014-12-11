@@ -63,11 +63,11 @@ var myObj = document.getElementsByClassName('fadelatest');
 }
 
 function chuckify(){
-document.body.style.Transition="opacity 1s ease-in-out";
-document.body.style.WebkitTransition="opacity 1s ease-in-out";
-document.body.style.MozTransition="opacity 1s ease-in-out";
-document.body.style.OTransition="opacity 1s ease-in-out";
-document.body.style.msTransition="opacity 1s ease-in-out";
+document.body.style.Transition="background 1s linear";
+document.body.style.WebkitTransition="background 1s linear";
+document.body.style.MozTransition="background 1s linear";
+document.body.style.OTransition="background 1s linear";
+document.body.style.msTransition="background 1s linear";
 document.body.style.backgroundRepeat="no-repeat";
 document.body.style.backgroundPosition="center";
 document.body.style.backgroundImage="url('chuckface.jpg')";
