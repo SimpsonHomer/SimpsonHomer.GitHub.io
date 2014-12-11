@@ -73,12 +73,13 @@ document.body.style.backgroundPosition="center";
 document.body.style.backgroundImage="url('chuckface.jpg')";
 }
 
-function chuckspin(){
-document.body.style.Transition="rotate(360deg)";
-document.body.style.WebkitTransition="rotate(360deg)";
-document.body.style.MozTransition="rotate(360deg)";
-document.body.style.OTransition="rotate(360deg)";
-document.body.style.msTransition="rotate(360deg)";
+function ruthspin(){
+var ruth = document.body.getElementsbyClassName('ruth');
+    ruth.style.Transition="rotate(36000deg)";
+    ruth.style.WebkitTransition="rotate(36000deg)";
+    ruth.style.MozTransition="rotate(36000deg)";
+    ruth.style.OTransition="rotate(36000deg)";
+    ruth.style.msTransition="rotate(36000deg)";
 }
 
 function addListener(element, type, response) {
@@ -113,11 +114,12 @@ function addListener(element, type, response) {
         case 104 :
 	    fadeandgotoindex()
             break;
+	// if they press C
 	case 67 :
 	    chuckify()
 	    break;
-	case 72 :
-	    chuckspin();
+	case 82 :
+	    ruthspin()
 	    break;
         }
     });
