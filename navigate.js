@@ -75,7 +75,7 @@ document.body.style.backgroundImage="url('chuckface.jpg')";
 
 function ruthspin(){
 var ruth = document.getElementsByClassName('ruth');
-for(var i=0; ruth.length; i++){
+for(var i=0; i<ruth.length; i++){
 		ruth[i].style['Transition'] = '36000deg';
                 ruth[i].style['WebkitTransition'] = '36000deg';
                 ruth[i].style['MozTransition'] = '36000deg';
