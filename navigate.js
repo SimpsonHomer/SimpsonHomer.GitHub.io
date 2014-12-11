@@ -75,11 +75,13 @@ document.body.style.backgroundImage="url('chuckface.jpg')";
 
 function ruthspin(){
 var ruth = document.getElementsByClassName('ruth');
-    ruth.style.Transition="rotate(36000deg)";
-    ruth.style.WebkitTransition="rotate(36000deg)";
-    ruth.style.MozTransition="rotate(36000deg)";
-    ruth.style.OTransition="rotate(36000deg)";
-    ruth.style.msTransition="rotate(36000deg)";
+for(var i=0; ruth.length; i++){
+		ruth[i].style['Transition'] = '36000deg';
+                ruth[i].style['WebkitTransition'] = '36000deg';
+                ruth[i].style['MozTransition'] = '36000deg';
+                ruth[i].style['OTransition'] = '36000deg';
+                ruth[i].style['msTransition'] = '36000deg';
+	    }
 }
 
 function addListener(element, type, response) {
