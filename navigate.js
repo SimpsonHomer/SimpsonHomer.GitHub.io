@@ -63,7 +63,7 @@ var myObj = document.getElementsByClassName('fadelatest');
 }
 
 function chuckify(){
-document.body.style.backgroundImage="url('chuckface.jpeg')";
+document.body.style.backgroundImage="url('chuckface.jpg')";
 }
 
 function addListener(element, type, response) {
