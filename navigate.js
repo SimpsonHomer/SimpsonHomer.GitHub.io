@@ -76,11 +76,11 @@ document.body.style.backgroundImage="url('chuckface.jpg')";
 function ruthspin(){
 var ruth = document.getElementsByClassName('ruth');
 for(var i=0; i<ruth.length; i++){
-		ruth[i].style['Transition'] = '36000deg';
-                ruth[i].style['WebkitTransition'] = '36000deg';
-                ruth[i].style['MozTransition'] = '36000deg';
-                ruth[i].style['OTransition'] = '36000deg';
-                ruth[i].style['msTransition'] = '36000deg';
+		ruth[i].style['Transition'] = 'rotate(36000deg)';
+                ruth[i].style['WebkitTransition'] = 'rotate(36000deg)';
+                ruth[i].style['MozTransition'] = 'rotate(36000deg)';
+                ruth[i].style['OTransition'] = 'rotate(36000deg)';
+                ruth[i].style['msTransition'] = 'rotate(36000deg)';
 	    }
 }
 
