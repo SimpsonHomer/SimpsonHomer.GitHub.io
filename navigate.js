@@ -1,4 +1,4 @@
-var j=0
+var j = 0;
 
 function fadeandgotoabout(){
 var myObj = document.getElementsByClassName('fade');
@@ -81,7 +81,7 @@ document.getElementById('ruth').style.MozTransform="rotate(" + j + "deg)";
 document.getElementById('ruth').style.WebkitTransform="rotate(" + j + "deg)";
 document.getElementById('ruth').style.OTransform="rotate(" + j + "deg)";
 document.getElementById('ruth').style.msTransform="rotate(" + j + "deg)";
-j = j++;
+var j = j++;
 }
 
 function addListener(element, type, response) {
