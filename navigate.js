@@ -1,3 +1,5 @@
+var j=0
+
 function fadeandgotoabout(){
 var myObj = document.getElementsByClassName('fade');
 	    for(var i=0; i<myObj.length; i++){
@@ -74,13 +76,12 @@ document.body.style.backgroundImage="url('chuckface.jpg')";
 }
 
 function ruthspin(){
-var i = 0;
-document.getElementById('ruth').style.Transform="rotate(" + i + "deg)";
-document.getElementById('ruth').style.MozTransform="rotate(" + i + "deg)";
-document.getElementById('ruth').style.WebkitTransform="rotate(" + i + "deg)";
-document.getElementById('ruth').style.OTransform="rotate(" + i + "deg)";
-document.getElementById('ruth').style.msTransform="rotate(" + i + "deg)";
-i = i++;
+document.getElementById('ruth').style.Transform="rotate(" + j + "deg)";
+document.getElementById('ruth').style.MozTransform="rotate(" + j + "deg)";
+document.getElementById('ruth').style.WebkitTransform="rotate(" + j + "deg)";
+document.getElementById('ruth').style.OTransform="rotate(" + j + "deg)";
+document.getElementById('ruth').style.msTransform="rotate(" + j + "deg)";
+j = j++;
 }
 
 function addListener(element, type, response) {
