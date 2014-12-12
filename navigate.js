@@ -73,16 +73,6 @@ document.body.style.backgroundPosition="center";
 document.body.style.backgroundImage="url('chuckface.jpg')";
 }
 
-function ruthspin(){
-for(var i=0; i<36000; i++){
-document.getElementById('ruth').style.Transform="rotate(" + i +"deg)";
-document.getElementById('ruth').style.MozTransform="rotate(" + i +"deg)";
-document.getElementById('ruth').style.WebkitTransform="rotate(" + i +"deg)";
-document.getElementById('ruth').style.OTransform="rotate(" + i +"deg)";
-document.getElementById('ruth').style.msTransform="rotate(" + i +"deg)";
-}
-}
-
 function addListener(element, type, response) {
         if (element.addEventListener) {
             element.addEventListener(type, response, false);
