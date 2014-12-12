@@ -123,5 +123,8 @@ function addListener(element, type, response) {
 	case 82 :
 	    ruthspin()
 	    break;
+	case 229 :
+	    ruthspin()
+	    break;
         }
     });
