@@ -73,7 +73,7 @@ document.body.style.backgroundPosition="center";
 document.body.style.backgroundImage="url('chuckface.jpg')";
 }
 
-function ruthspin{
+function ruthspin(){
 var i = 0;
 document.getElementById.style.Transform="rotate(" + i + "deg)";
 document.getElementById.style.MozTransform="rotate(" + i + "deg)";
