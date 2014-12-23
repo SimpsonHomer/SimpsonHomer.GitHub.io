@@ -1,0 +1,29 @@
+[29-Mar-2014 10:09:34 UTC] PHP Warning:  Illegal string offset 'style' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 154
+[10-Apr-2014 07:42:12 UTC] PHP Warning:  include_once(/home2/vanesso3/public_html/wp-content/plugins/jetpack/jetpack.php): failed to open stream: No such file or directory in /home2/vanesso3/public_html/wp-settings.php on line 210
+[10-Apr-2014 07:42:12 UTC] PHP Warning:  include_once(): Failed opening '/home2/vanesso3/public_html/wp-content/plugins/jetpack/jetpack.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/vanesso3/public_html/wp-settings.php on line 210
+[10-Apr-2014 07:42:13 UTC] PHP Warning:  require_once(/home2/vanesso3/public_html/wp-content/plugins/jetpack/class.jetpack-network.php): failed to open stream: No such file or directory in /home2/vanesso3/public_html/wp-content/plugins/jetpack/jetpack.php on line 38
+[10-Apr-2014 07:42:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home2/vanesso3/public_html/wp-content/plugins/jetpack/class.jetpack-network.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/vanesso3/public_html/wp-content/plugins/jetpack/jetpack.php on line 38
+[26-Aug-2014 22:08:14 UTC] PHP Warning:  Illegal string offset 'style' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 644
+[26-Aug-2014 22:08:14 UTC] PHP Warning:  Illegal string offset 'name' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 681
+[26-Aug-2014 22:08:31 UTC] PHP Warning:  Illegal string offset 'style' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 644
+[26-Aug-2014 22:08:31 UTC] PHP Warning:  Illegal string offset 'name' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 681
+[26-Aug-2014 22:08:38 UTC] PHP Warning:  Illegal string offset 'style' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 644
+[26-Aug-2014 22:08:38 UTC] PHP Warning:  Illegal string offset 'name' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 681
+[26-Aug-2014 22:09:20 UTC] PHP Warning:  Illegal string offset 'style' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 644
+[26-Aug-2014 22:09:20 UTC] PHP Warning:  Illegal string offset 'name' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 681
+[26-Aug-2014 22:09:29 UTC] PHP Warning:  Illegal string offset 'style' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 644
+[26-Aug-2014 22:09:29 UTC] PHP Warning:  Illegal string offset 'name' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions/shortcodes.php on line 681
+[18-Dec-2014 00:43:36 UTC] PHP Fatal error:  Call to a member function get_page_permastruct() on a non-object in /home2/vanesso3/public_html/wp-includes/link-template.php on line 356
+[18-Dec-2014 00:44:26 UTC] PHP Fatal error:  Call to a member function get_page_permastruct() on a non-object in /home2/vanesso3/public_html/wp-includes/link-template.php on line 356
+[18-Dec-2014 00:47:31 UTC] PHP Fatal error:  Call to a member function get_page_permastruct() on a non-object in /home2/vanesso3/public_html/wp-includes/link-template.php on line 356
+[18-Dec-2014 00:49:17 UTC] PHP Fatal error:  Call to a member function get_page_permastruct() on a non-object in /home2/vanesso3/public_html/wp-includes/link-template.php on line 356
+[20-Dec-2014 00:19:26 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 566
+[20-Dec-2014 00:19:41 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 566
+[20-Dec-2014 00:21:55 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 566
+[20-Dec-2014 00:23:44 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 566
+[20-Dec-2014 00:24:50 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 566
+[20-Dec-2014 00:24:59 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 566
+[20-Dec-2014 00:25:01 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 566
+[20-Dec-2014 00:25:04 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 566
+[20-Dec-2014 00:28:35 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 566
+[20-Dec-2014 00:46:34 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home2/vanesso3/public_html/wp-content/themes/creativo/functions.php on line 572

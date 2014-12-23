@@ -1,0 +1,14 @@
+.inner, .footer_widget_inside {
+	min-width: 960px;
+}
+.top_nav, .row, .action_bar_inner, .bellow_header_title {
+	min-width: 940px;
+}
+.vc_row-fluid {
+	min-width: 960px;
+}
+/*
+.ls-wp-fullwidth-helper {
+	width: 960px !important;
+}
+*/

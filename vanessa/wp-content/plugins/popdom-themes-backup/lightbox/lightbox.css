@@ -1,0 +1,504 @@
+@import url("../popreset.css");
+
+.popup-dom-lightbox-wrapper {
+    height: 100%;
+    min-height: 350px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-overlay {
+    background-image:url('images/bg-trans.png');
+    height: 100%;
+    min-height: 350px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main{
+    z-index: 1000;
+}
+
+.popup-dom-lightbox-wrapper .powered {
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 0px;
+    display: block;
+}
+
+.popup-dom-lightbox-wrapper .powered a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000;
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.popup-dom-lightbox-wrapper .powered a:hover {
+    text-decoration: underline;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-close {
+    float: right;
+    background-image: url('images/lightbox-close.png');
+    background-image: url('../lightbox-close-ie.png')\0/ !important;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-top: 12px;
+    height: 32px;
+    width: 30px;
+    background-size: 100%;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-close:hover {
+    background-position: left top;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-close span {
+    display: none;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main {
+    color: #fff;
+    width: 492px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top {
+    width: 472px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top-content {
+    padding-bottom: 20px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top p.heading {
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    width: 385px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    color: #fff;
+    text-shadow: 0px 1px 0px #000;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top .bullet-listx {
+    background-image: url('images/shadow-blue.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top ul.bullet-list {
+    list-style: none;
+    color: #fff;
+    max-width: 392px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-top ul.bullet-list li {
+    /* right: 50%; */
+    /* position: relative; */
+    font-size: 18px;
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    background-image: url('images/bullet.png');
+    background-position: 0px 0px;
+    text-shadow: 0px 1px 0px #000;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    margin-bottom: 5px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-middle-bar {
+    height: 60px;
+    padding-top: 10px;
+    margin-top: -10px;
+    background-image: url('images/middle-bar.png');
+    background-repeat: no-repeat;
+    width: 492px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-middle-bar p.heading2 {
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 60px;
+    text-shadow: 0px 1px 0px #000;
+    color: #fff;
+
+    padding: 0;
+    margin: 0;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom {
+    background-image: url('images/grey-bg.png');
+    background-repeat: no-repeat;
+    width: 461px;
+    border: 6px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    height: 257px;
+    border-top: 0px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info {
+    height: 230px;
+    float: left;
+    margin-left: 180px;
+    margin-top: 60px;
+    width: 400px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info h1 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: Georgia, Garamond, Times, serif;
+    color: #002753;
+    font-weight: normal;
+    letter-spacing: -1px;
+    text-shadow: 0px 1px 0px #fff;
+    margin-bottom: 45px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .green-ticks {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .green-ticks li {
+    background-image: url('images/green-tick.png');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Georgia, Garamond, Times, serif;
+    color: #002753;
+    font-weight: normal;
+    letter-spacing: -1px;
+    text-shadow: 0px 1px 0px #fff;
+    background-position: left center;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .discover {
+    background-image: url('images/discover.png');
+    background-repeat: no-repeat;
+    height: 12px;
+    width: 176px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-info .discover span {
+    display: none;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-signup {
+    height: 260px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-main .lightbox-signup p.get-free {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: Georgia, Garamond, Times, serif;
+    color: #fff;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 0px 1px 0px #000;
+}
+
+.lightbox-clear {
+    clear: both;
+}
+.popup-dom-lightbox-wrapper .lightbox-bottom form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+.popup-dom-lightbox-wrapper .lightbox-bottom .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="text"] {
+    background-image: url('images/lightbox-text-box.png');
+    margin-bottom: 5px;
+    border: 0px;
+    line-height: 20px;
+    padding-right: 40px;
+    padding-top: 12px;
+    margin-left: 3px;
+    padding-bottom: 12px;
+    width: 293px;
+    font-family: Georgia, Garamond, Times, serif;
+    font-size: 14px;
+    padding-left: 10px;
+    background-color: transparent;
+    margin-top: 30px;
+    background-position: left top;
+    outline: none;
+    color:#888888;
+    line-height: 14px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="text"].email {
+    background-position: left bottom;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"] {
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 49px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 45px;
+}
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"]:hover {
+    background-position: left center;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"]:active {
+    background-position: left bottom;
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom .secure {
+    font-size: 12px;
+    background-image: url('images/lightbox-secure.png');
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    margin-top: 10px;
+    line-height: 17px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #8e8e8e;
+}
+
+/* The Lightbox Designs
+=========================
+*/
+.popup-dom-lightbox-wrapper .lightbox-color-blue .lightbox-top {
+    background: #1d3387;
+    background: -moz-radial-gradient(center, ellipse cover, #1d3387 0%, #192d4a 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#1d3387), color-stop(100%,#192d4a));
+    background: -webkit-radial-gradient(center, ellipse cover, #1d3387 0%,#192d4a 100%);
+    background: -o-radial-gradient(center, ellipse cover, #1d3387 0%,#192d4a 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #1d3387 0%,#192d4a 100%);
+    background: radial-gradient(ellipse at center, #1d3387 0%,#192d4a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3387', endColorstr='#192d4a',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-bright-blue .lightbox-top {
+    background: #133ae1;
+    background: -moz-radial-gradient(center, ellipse cover, #133ae1 0%, #325791 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#133ae1), color-stop(100%,#325791));
+    background: -webkit-radial-gradient(center, ellipse cover, #133ae1 0%,#325791 100%);
+    background: -o-radial-gradient(center, ellipse cover, #133ae1 0%,#325791 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #133ae1 0%,#325791 100%);
+    background: radial-gradient(ellipse at center, #133ae1 0%,#325791 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133ae1', endColorstr='#325791',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-bright-green .lightbox-top {
+    background: #23d300;
+    background: -moz-radial-gradient(center, ellipse cover,  #23d300 0%, #3d8317 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#23d300), color-stop(100%,#3d8317));
+    background: -webkit-radial-gradient(center, ellipse cover,  #23d300 0%,#3d8317 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #23d300 0%,#3d8317 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #23d300 0%,#3d8317 100%);
+    background: radial-gradient(ellipse at center,  #23d300 0%,#3d8317 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23d300', endColorstr='#3d8317',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-bright-orange .lightbox-top {
+    background: #e78714;
+    background: -moz-radial-gradient(center, ellipse cover,  #e78714 0%, #975734 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e78714), color-stop(100%,#975734));
+    background: -webkit-radial-gradient(center, ellipse cover,  #e78714 0%,#975734 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #e78714 0%,#975734 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #e78714 0%,#975734 100%);
+    background: radial-gradient(ellipse at center,  #e78714 0%,#975734 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e78714', endColorstr='#975734',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-bright-red .lightbox-top {
+    background: #d30700;
+    background: -moz-radial-gradient(center, ellipse cover,  #d30700 0%, #831728 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#d30700), color-stop(100%,#831728));
+    background: -webkit-radial-gradient(center, ellipse cover,  #d30700 0%,#831728 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #d30700 0%,#831728 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #d30700 0%,#831728 100%);
+    background: radial-gradient(ellipse at center,  #d30700 0%,#831728 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d30700', endColorstr='#831728',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-bright-turquoise .lightbox-top {
+    background: #13d4e1;
+    background: -moz-radial-gradient(center, ellipse cover,  #13d4e1 0%, #319384 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#13d4e1), color-stop(100%,#319384));
+    background: -webkit-radial-gradient(center, ellipse cover,  #13d4e1 0%,#319384 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #13d4e1 0%,#319384 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #13d4e1 0%,#319384 100%);
+    background: radial-gradient(ellipse at center,  #13d4e1 0%,#319384 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13d4e1', endColorstr='#319384',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-dark-blue .lightbox-top {
+    background: #15456f;
+    background: -moz-radial-gradient(center, ellipse cover,  #15456f 0%, #0a2933 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#15456f), color-stop(100%,#0a2933));
+    background: -webkit-radial-gradient(center, ellipse cover,  #15456f 0%,#0a2933 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #15456f 0%,#0a2933 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #15456f 0%,#0a2933 100%);
+    background: radial-gradient(ellipse at center,  #15456f 0%,#0a2933 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15456f', endColorstr='#0a2933',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-grape .lightbox-top {
+    background: #870050;
+    background: -moz-radial-gradient(center, ellipse cover,  #870050 1%, #420035 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#870050), color-stop(100%,#420035));
+    background: -webkit-radial-gradient(center, ellipse cover,  #870050 1%,#420035 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #870050 1%,#420035 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #870050 1%,#420035 100%);
+    background: radial-gradient(ellipse at center,  #870050 1%,#420035 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#870050', endColorstr='#420035',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-green .lightbox-top {
+    background: #206f15;
+    background: -moz-radial-gradient(center, ellipse cover,  #206f15 0%, #17340a 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#206f15), color-stop(100%,#17340a));
+    background: -webkit-radial-gradient(center, ellipse cover,  #206f15 0%,#17340a 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #206f15 0%,#17340a 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #206f15 0%,#17340a 100%);
+    background: radial-gradient(ellipse at center,  #206f15 0%,#17340a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#206f15', endColorstr='#17340a',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-bright-purple .lightbox-top {
+    background: #bc009a;
+    background: -moz-radial-gradient(center, ellipse cover,  #bc009a 0%, #760779 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#bc009a), color-stop(100%,#760779));
+    background: -webkit-radial-gradient(center, ellipse cover,  #bc009a 0%,#760779 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #bc009a 0%,#760779 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #bc009a 0%,#760779 100%);
+    background: radial-gradient(ellipse at center,  #bc009a 0%,#760779 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc009a', endColorstr='#760779',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-orange .lightbox-top {
+    background: #a14a00;
+    background: -moz-radial-gradient(center, ellipse cover,  #a14a00 0%, #611900 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#a14a00), color-stop(100%,#611900));
+    background: -webkit-radial-gradient(center, ellipse cover,  #a14a00 0%,#611900 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #a14a00 0%,#611900 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #a14a00 0%,#611900 100%);
+    background: radial-gradient(ellipse at center,  #a14a00 0%,#611900 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a14a00', endColorstr='#611900',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-red .lightbox-top {
+    background: #6f151a;
+    background: -moz-radial-gradient(center, ellipse cover,  #6f151a 0%, #330a14 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#6f151a), color-stop(100%,#330a14));
+    background: -webkit-radial-gradient(center, ellipse cover,  #6f151a 0%,#330a14 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #6f151a 0%,#330a14 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #6f151a 0%,#330a14 100%);
+    background: radial-gradient(ellipse at center,  #6f151a 0%,#330a14 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f151a', endColorstr='#330a14',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-turquoise .lightbox-top {
+    background: #008783;
+    background: -moz-radial-gradient(center, ellipse cover,  #008783 0%, #004334 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#008783), color-stop(100%,#004334));
+    background: -webkit-radial-gradient(center, ellipse cover,  #008783 0%,#004334 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #008783 0%,#004334 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #008783 0%,#004334 100%);
+    background: radial-gradient(ellipse at center,  #008783 0%,#004334 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008783', endColorstr='#004334',GradientType=1 );
+}
+
+.popup-dom-lightbox-wrapper .lightbox-color-black .lightbox-top {
+    background: rgb(67,67,67);
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(67,67,67,1) 18%, rgba(32,32,32,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(18%,rgba(67,67,67,1)), color-stop(100%,rgba(32,32,32,1)));
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(67,67,67,1) 18%,rgba(32,32,32,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover,  rgba(67,67,67,1) 18%,rgba(32,32,32,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(67,67,67,1) 18%,rgba(32,32,32,1) 100%);
+    background: radial-gradient(ellipse at center,  rgba(67,67,67,1) 18%,rgba(32,32,32,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#202020',GradientType=1 );
+}
+
+/* The Button Designs
+=======================
+*/
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"].red-button {
+    background-image: url('images/buttons/red-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"].dark-red-button {
+    background-image: url('images/buttons/dark-red-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"].orange-button {
+    background-image: url('images/buttons/orange-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"].dark-orange-button {
+    background-image: url('images/buttons/dark-orange-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"].green-button {
+    background-image: url('images/buttons/green-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"].dark-green-button {
+    background-image: url('images/buttons/dark-green-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"].blue-button {
+    background-image: url('images/buttons/blue-button.png');
+}
+
+.popup-dom-lightbox-wrapper .lightbox-bottom input[type="submit"].dark-blue-button {
+    background-image: url('images/buttons/dark-blue-button.png');
+}

@@ -1,0 +1,15 @@
+[30-Mar-2014 02:12:33 America/Denver] PHP Fatal error:  Call to undefined function __() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/defaults.php on line 14
+[30-Mar-2014 10:46:43 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/plugin.defaults.php on line 7
+[02-Apr-2014 02:07:43 America/Denver] PHP Fatal error:  Call to undefined function __() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/defaults.php on line 14
+[03-Apr-2014 10:04:41 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/plugin.defaults.php on line 7
+[04-Apr-2014 17:28:25 America/Denver] PHP Fatal error:  Call to undefined function __() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/defaults.php on line 14
+[06-Apr-2014 18:05:32 America/Denver] PHP Fatal error:  Call to undefined function __() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/defaults.php on line 14
+[07-Apr-2014 03:51:58 America/Denver] PHP Fatal error:  Call to undefined function __() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/defaults.php on line 14
+[07-Apr-2014 18:27:24 America/Denver] PHP Fatal error:  Call to undefined function __() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/defaults.php on line 14
+[08-Apr-2014 04:20:04 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/plugin.defaults.php on line 7
+[10-Jul-2014 15:47:30 America/Denver] PHP Fatal error:  Call to undefined function __() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/defaults.php on line 14
+[11-Jul-2014 12:53:12 America/Denver] PHP Fatal error:  Call to undefined function __() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/defaults.php on line 14
+[11-Jul-2014 22:57:36 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/plugin.defaults.php on line 7
+[12-Jul-2014 04:46:30 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/plugin.defaults.php on line 7
+[12-Jul-2014 10:20:54 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/plugin.defaults.php on line 7
+[13-Jul-2014 10:25:57 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home2/vanesso3/public_html/wp-content/plugins/LayerSlider/config/plugin.defaults.php on line 7

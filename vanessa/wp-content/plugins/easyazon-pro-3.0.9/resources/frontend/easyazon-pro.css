@@ -1,0 +1,128 @@
+/* popover */
+.easyazon-popover {
+	max-width: 400px;
+}
+
+.easyazon-popover-content {
+	padding: 6px;
+}
+
+.easyazon-popup-hidden {
+	display: none;
+}
+
+.easyazon-popup {
+
+}
+
+.easyazon-popup-image-container {
+	float: left;
+	width: 75px;
+}
+
+.easyazon-popup-image-container > a {
+	display: block;
+}
+
+.easyazon-popup-image {
+	display: block;
+	float: left;
+	height: auto !important;
+	max-width: 100% !important;
+}
+
+.easyazon-popup-attributes {
+	margin-left: 87px;
+}
+
+.easyazon-popup-attribute {
+
+}
+
+/* block */
+.easyazon-block {
+	border: 1px solid #999999;
+	padding: 6px;
+	width: 338px;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.easyazon-block-clear,
+.easyazon-popup-clear {
+	clear: both;
+}
+
+.easyazon-block-align-center {
+	margin: 0 auto 12px;
+}
+
+.easyazon-block-align-left {
+	float: left;
+	margin: 0 12px 12px 0;
+}
+
+.easyazon-block-align-right {
+	float: right;
+	margin: 0 0 12px 12px;
+}
+
+.easyazon-block-image {
+	display: block;
+	height: auto !important;
+	max-width: 100% !important;
+}
+
+/* layout top */
+.easyazon-block-layout-top .easyazon-block-image-container {
+	display: block;
+}
+
+.easyazon-block-layout-top .easyazon-block-image {
+	margin: 0 auto 12px;
+}
+
+.easyazon-block-layout-top .easyazon-block-attributes {
+	text-align: center;
+}
+
+.easyazon-block-layout-top .easyazon-buy-button {
+	margin: 0 auto;
+}
+
+/* layout left */
+.easyazon-block-layout-left .easyazon-block-image-container {
+	float: left;
+	width: 75px;
+}
+
+.easyazon-block-layout-left .easyazon-block-image {
+	float: left;
+}
+
+.easyazon-block-layout-left .easyazon-block-attributes {
+	margin-left: 87px;
+}
+
+/* layout right */
+.easyazon-block-layout-right .easyazon-block-image-container {
+	float: right;
+	width: 75px;
+}
+
+.easyazon-block-layout-left .easyazon-block-image {
+	float: right;
+}
+
+.easyazon-block-layout-right .easyazon-block-attributes {
+	margin-right: 87px;
+}
+
+/* misc */
+.easyazon-buy-button {
+	display: block;
+	padding: 6px 0 3px;
+}
