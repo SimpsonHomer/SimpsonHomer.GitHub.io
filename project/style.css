@@ -92,6 +92,8 @@ ul.mobile{
   display:none; 
   padding:0;
   overflow:hidden;
+  margin-bottom:0;
+  
 }
 
 ul.mobile > li {
