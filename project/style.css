@@ -72,9 +72,15 @@ div.nav{
   text-align:center;
 }
 
-div.nav > ul{
+nav > ul > li{
   list-style-type:none;
-  padding:0px;
+  float:left;
+  margin-right:3px;
+}
+
+nav > ul{
+  border-radius:7px;
+  background-color: rgba(255,255,255,0.6);
 }
 
 @media screen and (max-width: 480px) {
