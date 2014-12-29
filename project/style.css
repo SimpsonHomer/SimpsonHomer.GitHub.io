@@ -73,8 +73,15 @@ div > ul > li{
   margin-right:3px;
 }
 
-div > ul{
+div > ul:first-of-type{
   display:inline-block;
+  padding-right:35px;
+}
+
+dive > ul{
+  display:inline-block;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 @media screen and (max-width: 480px) {
