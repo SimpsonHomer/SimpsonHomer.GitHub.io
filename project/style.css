@@ -88,9 +88,19 @@ div > ul{
   margin:0;
 }
 
+ul.mobile{
+  display:none; 
+  padding:0;
+}
+
+ul.mobile > li {
+  clear:both;
+}
+
 @media screen and (max-width: 480px) {
 	main > div{width:100%; !important;}
 	header > div{width:100%; !important;}
 	main > div > div{width:100%; !important;}
 	div > ul{margin-bottom:50px; !important;}
+	div.nav{display:none; !important;}
 }
