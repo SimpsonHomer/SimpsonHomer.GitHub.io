@@ -63,7 +63,7 @@ main > div > div > p{
 }
 
 main > div > div.nav{
-padding-bottom:35px;
+padding-bottom:10px;
 text-align:center;
 }
 
@@ -75,13 +75,11 @@ div > ul > li{
 
 div > ul{
   display:inline-block;
-  margin-left:auto;
-  margin-right:auto;
 }
 
 @media screen and (max-width: 480px) {
 	main > div{width:100%; !important;}
 	header > div{width:100%; !important;}
 	main > div > div{width:100%; !important;}
-	div > ul{margin-bottom:100px; !important;}
+	div > ul{margin-bottom:50px; !important;}
 }
