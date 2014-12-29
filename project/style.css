@@ -91,6 +91,7 @@ div > ul{
 ul.mobile{
   display:none; 
   padding:0;
+  overflow:hidden;
 }
 
 ul.mobile > li {
