@@ -75,12 +75,12 @@ div > ul > li{
 div > ul{
   margin-left:auto;
   margin-right:auto;
-  margin-bottom:45px;
+  margin-bottom:23px;
 }
 
 @media screen and (max-width: 480px) {
 	main > div{width:100%; !important;}
 	header > div{width:100%; !important;}
 	main > div > div{width:100%; !important;}
-	div > ul{margin-bottom:100px; !important;}
+	div > ul{margin-bottom:50px; !important;}
 }
