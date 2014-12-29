@@ -78,5 +78,6 @@ div.nav > ul{
 }
 
 @media screen and (max-width: 480px) {
-	div{width:100%; !important;}
+	main > div{width:100%; !important;}
+	header >div{width:100%; !important;}
 }
