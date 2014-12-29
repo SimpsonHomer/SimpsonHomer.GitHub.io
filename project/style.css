@@ -104,5 +104,5 @@ ul.mobile > li {
 	main > div > div{width:100%; !important;}
 	div > ul{margin-bottom:50px; !important;}
 	div.nav > ul:not(.mobile){display:none; !important;}
-	ul.mobile{display:initial; !important}
+	ul.mobile{display:block; !important}
 }
