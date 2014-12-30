@@ -1,0 +1,5 @@
+baseurl = "http://coreymcgrath.me/dev/"
+languageCode = "en-us"
+title = "Corey McGrath"
+contentdir = "content"
+layoutdir = "layouts"
