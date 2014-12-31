@@ -9,7 +9,9 @@
 	<h1>Corey McGrath</h1>
 </header>
 <div class="fade">
-<p>{{ .Content }}</p>
+{{ range .About }}
+        <p>{{ .Content }}</p>
+{{ end }}
 </div>
 </body>
 </html>
