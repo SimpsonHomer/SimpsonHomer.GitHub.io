@@ -3,7 +3,7 @@
   <channel>
       <title>Recent Content on Corey McGrath </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://coreymcgrath.me/index.xml/</link>
+    <link>http://localhost:1313/dev/index.xml/</link>
     <language>en-us</language>
     
     
@@ -11,40 +11,40 @@
     
     <item>
       <title>About Me, line 1</title>
-      <link>http://coreymcgrath.me/about/about1/</link>
+      <link>http://localhost:1313/dev/about/about1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://coreymcgrath.me/about/about1/</guid>
+      <guid>http://localhost:1313/dev/about/about1/</guid>
       <description>&lt;p&gt;I am a fourth-year Ph.D. student in philosophy at the University of California, Santa Barbara.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>About Me, line 2</title>
-      <link>http://coreymcgrath.me/about/about2/</link>
+      <link>http://localhost:1313/dev/about/about2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://coreymcgrath.me/about/about2/</guid>
+      <guid>http://localhost:1313/dev/about/about2/</guid>
       <description>&lt;p&gt;My philosophical interests include philosophy of mind, metaphysics, and philosophical semantics. I am particularly interested in the philosophy of color, on which I&amp;rsquo;m writing my dissertation. I recently completed my qualifying paper, a critical study of Jonathan Cohen&amp;rsquo;s relational theory of color.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>About Me, line 3</title>
-      <link>http://coreymcgrath.me/about/about3/</link>
+      <link>http://localhost:1313/dev/about/about3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://coreymcgrath.me/about/about3/</guid>
+      <guid>http://localhost:1313/dev/about/about3/</guid>
       <description>&lt;p&gt;Before coming to UCSB, I earned a Bachelor of Arts in Philosophy at Geneseo State University in New York with minors in linguistics and anthropology. Afterwards I took graduate courses in philosophy and linguistics at the University of Buffalo, SUNY for two years.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>About Me, line 4</title>
-      <link>http://coreymcgrath.me/about/about4/</link>
+      <link>http://localhost:1313/dev/about/about4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://coreymcgrath.me/about/about4/</guid>
+      <guid>http://localhost:1313/dev/about/about4/</guid>
       <description>&lt;p&gt;In addition to my academic pursuits, I have worked in a number of industries, trying my hand at (among other things) marketing and web design. Currently, I intern at Ocean o&amp;rsquo; Graphics. See my resume for more information.&lt;/p&gt;
 </description>
     </item>
