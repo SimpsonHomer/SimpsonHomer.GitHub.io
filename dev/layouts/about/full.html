@@ -8,8 +8,8 @@
 <header class="fade">
 	<h1>Corey McGrath</h1>
 </header>
+{{ range .Data.Pages }}
 <div class="fade">
-{{ range .About }}
         <p>{{ .Content }}</p>
 {{ end }}
 </div>
