@@ -64,26 +64,6 @@ var myObj = document.getElementsByClassName('fadelatest');
             setTimeout(function(){window.location.href = "/links.html"},200);
 }
 
-function chuckify(){
-document.body.style.Transition="background 1s ease";
-document.body.style.WebkitTransition="background 1s ease";
-document.body.style.MozTransition="background 1s ease";
-document.body.style.OTransition="background 1s ease";
-document.body.style.msTransition="background 1s ease";
-document.body.style.backgroundRepeat="no-repeat";
-document.body.style.backgroundPosition="center";
-document.body.style.backgroundImage="url('chuckface.jpg')";
-}
-
-function ruthspin(){
-document.getElementById('ruth').style.Transform="rotate(" + j + "deg)";
-document.getElementById('ruth').style.MozTransform="rotate(" + j + "deg)";
-document.getElementById('ruth').style.WebkitTransform="rotate(" + j + "deg)";
-document.getElementById('ruth').style.OTransform="rotate(" + j + "deg)";
-document.getElementById('ruth').style.msTransform="rotate(" + j + "deg)";
-var j = j++;
-}
-
 function addListener(element, type, response) {
         if (element.addEventListener) {
             element.addEventListener(type, response, false);
@@ -116,15 +96,5 @@ function addListener(element, type, response) {
         case 104 :
 	    fadeandgotoindex()
             break;
-	// if they press C
-	case 67 :
-	    chuckify()
-	    break;
-	case 82 :
-	    ruthspin()
-	    break;
-	case 229 :
-	    ruthspin()
-	    break;
         }
     });
