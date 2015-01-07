@@ -1,7 +1,6 @@
 ---
 title: "New to philosophy?"
-cat: "link"
-href: "http://www.jimpryor.net/teaching/guidelines/reading.html"
+cat: "text"
 weight: 5
 ---
-Reading a philosophy article
+Jim Pryor has written a bunch of very helpful documents for undergraduates who are new or fairly new to contemporary academic philosophy:

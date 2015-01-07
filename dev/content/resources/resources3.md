@@ -1,7 +1,7 @@
 ---
 title: "Philosophy 20C, Spring 2014"
-cat: "link"
+cat: "linklast"
 href: "../phil20c/"
-weight: 2
+weight: 3
 ---
 Course documents

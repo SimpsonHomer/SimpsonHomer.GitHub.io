@@ -1,7 +1,7 @@
 ---
 title: "New to philosophy?"
 cat: "link"
-href: "https://bookofbadarguments.com/"
+href: "http://www.jimpryor.net/teaching/vocab/analyses.html"
 weight: 9
 ---
-The Book of Bad Arguments
+Analyzing concepts

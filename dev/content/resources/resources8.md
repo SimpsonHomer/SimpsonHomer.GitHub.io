@@ -1,7 +1,7 @@
 ---
 title: "New to philosophy?"
 cat: "link"
-href: "http://www.jimpryor.net/teaching/vocab/analyses.html"
+href: "http://www.jimpryor.net/teaching/vocab/argument.html"
 weight: 8
 ---
-Analyzing concepts
+What is an argument?

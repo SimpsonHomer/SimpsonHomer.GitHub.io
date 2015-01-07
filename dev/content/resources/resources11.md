@@ -1,7 +1,7 @@
 ---
 title: "New to philosophy?"
 cat: "link"
-href: "http://prezi.com/z4h1_fwilbxj/a-sample-philosophy-paper/"
+href: "https://bookofbadarguments.com/"
 weight: 11
 ---
-A Sample Philosophy Paper
+The Book of Bad Arguments

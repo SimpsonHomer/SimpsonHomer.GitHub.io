@@ -1,7 +1,7 @@
 ---
 title: "New to philosophy?"
 cat: "link"
-href: "http://www.jimpryor.net/teaching/vocab/glossary.html"
+href: "http://www.jimpryor.net/teaching/guidelines/reading.html"
 weight: 6
 ---
-A philosophical glossary
+Reading a philosophy article

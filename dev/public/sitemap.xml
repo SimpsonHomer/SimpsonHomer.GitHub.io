@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>/SimpsonHomer.github.io/dev/resources/resources1/</loc>
+    <loc>/SimpsonHomer.github.io/dev/about/about1/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/SimpsonHomer.github.io/dev/about/about1/</loc>
+    <loc>/SimpsonHomer.github.io/dev/resources/resources1/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,12 +28,12 @@
   </url>
   
   <url>
-    <loc>/SimpsonHomer.github.io/dev/resources/resources3/</loc>
+    <loc>/SimpsonHomer.github.io/dev/about/about3/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/SimpsonHomer.github.io/dev/about/about3/</loc>
+    <loc>/SimpsonHomer.github.io/dev/resources/resources3/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -79,6 +79,16 @@
   
   <url>
     <loc>/SimpsonHomer.github.io/dev/resources/resources11/</loc>
+    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/SimpsonHomer.github.io/dev/resources/resources12/</loc>
+    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/SimpsonHomer.github.io/dev/resources/resources13/</loc>
     <lastmod>0001-01-01T00:00:00+00:00</lastmod>
   </url>
   
