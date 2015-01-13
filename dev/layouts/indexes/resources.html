@@ -18,16 +18,16 @@
 <header>
 <h2>{{ .Title }}</h2>
 </header>
-<ul>
+<ul class="links">
 {{ end }}
 {{ if eq .Params.cat "text" }}
 {{ .Content }}
 {{ end }}
 {{ if eq .Params.cat "link" }}
-<li class="fadelatest resource"><a href="{{ .Params.href }}">{{ .Content }}</a></li>
+<li class="fadelatest"><a href="{{ .Params.href }}">{{ .Content }}</a></li>
 {{ end }}
 {{ if eq .Params.cat "linklast" }}
-<li class="fadelatest resource"><a href="{{ .Params.href }}">{{ .Content }}</a></li>
+<li class="fadelatest"><a href="{{ .Params.href }}">{{ .Content }}</a></li>
 </ul>
 {{ end }}
 {{ end }}

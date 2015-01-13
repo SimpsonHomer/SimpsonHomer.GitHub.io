@@ -1,0 +1,27 @@
+body{
+background-color:black;
+}
+
+h1{
+font-family:Scada;
+color:red;
+text-align:center;
+margin-bottom:100px;
+}
+
+div.portrait {
+width:150px;
+height:185px;
+margin-left:auto;
+margin-right:auto;
+-webkit-transition: all 2s ease-in-out;
+-moz-transition: all 2s ease-in-out;
+-ms-transition: all 2s ease-in-out;
+-o-transition: all 2s ease-in-out;
+transition: all 2s ease-in-out;
+background-image:url("schultz.jpg");
+}
+
+div.portrait:hover{
+background-image:url("schultz-inverted.jpg");
+}

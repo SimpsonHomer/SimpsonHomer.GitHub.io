@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{{ partial "head.html" . }}
+</head>
+<body>
+	{{ partial "nav.html" . }}
+<header class="fade">
+	<h1>Links</h1>
+</header>
+<ul id="links">
+<li class="fade">
+{{ template "orgs/list.html" }}
+</li>
+<li class="fadelater">
+{{ template "friends/list.html" }}
+</li>
+<li> class="fadelatest">
+{{ template "tools/list.html" }}
+</li>
+</ul>
+</body>
+</html>
