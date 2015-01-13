@@ -1,6 +1,6 @@
 body{
 background-color:black;
-font-family:Scada;
+font-family:Ubuntu Condensed;
 color:red;
 }
 
@@ -9,6 +9,11 @@ margin-left: auto;
 margin-right: auto;
 display: none;
 text-align: center;
+-webkit-transition: all 2s ease-in-out;
+-moz-transition: all 2s ease-in-out;
+-ms-transition: all 2s ease-in-out;
+-o-transition: all 2s ease-in-out;
+transition: all 2s ease-in-out;
 }
 
 h1{
@@ -20,6 +25,11 @@ div.center {
 margin-left: auto;
 margin-right: auto;
 text-align:center;
+-webkit-transition: all 2s ease-in-out;
+-moz-transition: all 2s ease-in-out;
+-ms-transition: all 2s ease-in-out;
+-o-transition: all 2s ease-in-out;
+transition: all 2s ease-in-out;
 }
 
 div.portrait {
@@ -43,8 +53,14 @@ background-image:url("schultz-inverted.jpg");
 a {
 margin: 0 12px;
 color:red;
+text-decoration:none;
 }
 
 a:hover {
 color:white;
+}
+
+.content{
+display:none;
+margin-top:35px;
 }
