@@ -5,10 +5,21 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href='http://fonts.googleapis.com/css?family=Scada' rel='stylesheet' type='text/css'>
 <meta name="viewport" content="width=device-width">
+
 </head>
 <body>
 <h1>Welcome to the Homepage of Dillon Schultz</h1>
-<div class="portrait">
+<div class="portrait" onclick="document.getElementById('nav').style.display = 'table';document.getElementById('goaway').style.display = 'none'">
 </div>
+<div class="center" id="goaway">
+  click on my face to begin your experience!
+  </div>
+  <nav id="nav">
+  <a href="#">about</a>
+  <a href="#">teaching</a>
+  <a href="#">research</a>
+  <a href="#">CV</a>
+  <a href="#">contact</a>
+  </nav>
 </body>
 </html>
