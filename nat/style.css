@@ -18,4 +18,9 @@ width:500px;
 
 ul{
 list-style-type:none;
+-o-padding-start: 0;
+-ms-padding-start: 0;
+-moz-padding-start: 0;
+-webkit-padding-start: 0;
+padding-start: 0;
 }
