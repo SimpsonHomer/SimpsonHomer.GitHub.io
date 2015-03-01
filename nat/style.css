@@ -1,0 +1,21 @@
+body{
+background-image: url('girl.png');
+background-repeat: no-repeat;
+background-position: center top;
+font-family: 'Oxygen', sans-serif;
+text-align:center;
+}
+
+
+div{
+margin-top:175px;
+margin-left:auto;
+margin-right:auto;
+border-radius:7px;
+background-color: rgba(255,255,255,0.6);
+width:500px;
+}
+
+ul{
+list-style-type:none;
+}
