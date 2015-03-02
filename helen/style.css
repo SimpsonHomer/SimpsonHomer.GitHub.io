@@ -33,8 +33,8 @@ div.links{
     margin-left:-150px;
 }
 
-@media screen and (max-width: 480px) {
-	div{width:initial;}
+@media screen and (max-width: 500px) {
+	div{width:100%;}
 	div[class="links"]{position:initial; bottom:initial; right:initial; left:initial; margin-left:auto; margin-right:auto;}
 	body{background-image: none; background-color:black;}
 }
