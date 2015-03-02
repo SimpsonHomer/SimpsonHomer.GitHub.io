@@ -26,5 +26,5 @@ padding-start: 0;
 }
 
 @media screen and (max-width: 480px) {
-	body{background-size:cover !important;}
+	body{background-size:cover background-position:50% 50% !important;}
 }
