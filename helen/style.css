@@ -37,4 +37,5 @@ div.links{
 	div{width:100%;}
 	div[class="links"]{position:initial; bottom:initial; right:initial; left:initial; margin-left:auto; margin-right:auto;}
 	body{background-image: none; background-color:black;}
+	img[class="portrait"]{width:100%;}
 }
