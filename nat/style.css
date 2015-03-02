@@ -6,6 +6,9 @@ font-family: 'Oxygen', sans-serif;
 text-align:center;
 }
 
+h1{
+font-size:50px;
+}
 
 div{
 margin-top:175px;
@@ -23,6 +26,10 @@ list-style-type:none;
 -moz-padding-start: 0;
 -webkit-padding-start: 0;
 padding-start: 0;
+}
+
+li{
+display:inline;
 }
 
 @media screen and (max-width: 480px) {
