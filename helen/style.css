@@ -35,5 +35,5 @@ div.links{
 
 @media screen and (max-width: 480px) {
 	div{margin:0; width:100%;}
-	div[class="links"]{bottom:initial;right:initial;left:initial;position:initial;}
+	div[class="links"]{bottom:initial; right:initial; left:initial; position:initial;}
 }
