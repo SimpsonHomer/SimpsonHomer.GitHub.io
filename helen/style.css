@@ -34,6 +34,7 @@ div.links{
 }
 
 @media screen and (max-width: 480px) {
-	div{margin:0; width:100%;}
-	div[class="links"]{bottom:initial; right:initial; left:initial; position:initial;}
+	div{width:100%;}
+	div[class="links"]{bottom:initial; right:initial; left:initial; position:initial; margin-left:0;}
+	body{background-image: none; background-color:black;}
 }
