@@ -51,4 +51,5 @@ margin-right:auto;
 
 @media screen and (max-width: 480px) {
 	li, p{max-width:100% !important;}
+	ul, ol{padding-start:0 !important;}
 }
