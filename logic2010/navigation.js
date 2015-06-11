@@ -4,6 +4,10 @@ $(document).ready( function() {
 
     $('body').append('<div class="navleft"><a href="' + previous + '">previous</a></div>');
     $('body').append('<div class="navright"><a href="' + next + '">next</a></div>');
+
+$('a').each( function() {
+    $(this).attr('target', '_self');
+    });
 });
 
 function getPrevious(pages, files) {
