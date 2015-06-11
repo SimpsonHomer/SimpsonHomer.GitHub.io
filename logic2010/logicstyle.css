@@ -52,6 +52,18 @@ a:hover{
 color:red;
 }
 
+.navleft{
+float:left;
+margin-left: 25%;
+font-size:large;
+}
+
+.navright{
+float:right;
+margin-right:25%;
+font-size:large;
+}
+
 @media screen and (max-width: 480px) {
 	li, p{max-width:90%;}
 	ul, ol{padding-left:0; margin-left:0;}
