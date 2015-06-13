@@ -1,12 +1,29 @@
 $(document).ready( function() {
+
+    $('p, li, h1, h2, h3, h4, h5').each( function() {
+	$(this).hide();
+	}); 
+   
+    $('p, li').each( function() {
+	$(this).fadeIn(500);
+	});
+
+    $('h3, h4, h5').each( function() {
+	$(this).fadeIn(400);
+	});
+
+    $('h1, h2').each( function() {
+	$(this).fadeIn(300);
+	});
+
     var previous = getPrevious(pages, files);
     var next = getNext(pages, files);
 
     $('body').append('<div class="navleft"><a href="' + previous + '">previous</a></div>');
     $('body').append('<div class="navright"><a href="' + next + '">next</a></div>');
 
-$('a').each( function() {
-    $(this).attr('target', '_self');
+    $('a').each( function() {
+	$(this).attr('target', '_self');
     });
 });
 
