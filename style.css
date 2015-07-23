@@ -10,6 +10,10 @@
 body{
 }
 
+.left{
+    margin-left:10%;
+}
+
 .instructions{
   float:right;
   margin-right:60px;
@@ -50,7 +54,7 @@ header{
   margin-left:37px;
 }
 
-div:not(.nav) {
+div:not(.nav .left) {
   margin-left:37px;
 }
 
