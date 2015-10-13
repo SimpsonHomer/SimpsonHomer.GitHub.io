@@ -12,34 +12,34 @@ div.container{
 }
 
 .piano{
-  background-image:url("http://www.theartscentregc.com.au/assets/components/gallery/files/2/677.jpg");
+  background-image:url("piano.jpg");
   background-attachment:fixed;
   background-size:cover;
   height:100vh;
 }
 
 .riviera{
-  background-image:url("https://gaytravel-destinations.s3.amazonaws.com/32380/santa_barbara__large.jpg");
+  background-image:url("riviera.jpg");
     background-attachment:fixed;
   background-size:cover;
   height:100vh;
 }
 
 .testimonials{
-  background-image:url("http://backgrounds.picaboo.com/download/ed/df/edf049667cf14fc488b63a34f46a920a/neutral_toille.jpg");
+  background-image:url("testimonials.jpg");
     background-attachment:fixed;
   background-size:cover;
   height:200vh;
 }
 
 .philosophy{
-  background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/a9/University_of_Otago.jpg");   
+  background-image:url("philosophy.jpg");   
   background-attachment:fixed;
   background-size:cover;
   height:100vh;
 }
 .ctact{
-  background-image:url("http://i.huffpost.com/gen/1931502/images/o-WOMAN-WRITING-LETTER-facebook.jpg");
+  background-image:url("contact.jpg");
     background-attachment:fixed;
   background-size:cover;
   height:100vh;
