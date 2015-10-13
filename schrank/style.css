@@ -1,0 +1,99 @@
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+div.container{
+    background-color: rgba(255,255,255,0.5);
+  border-radius:50px;
+}
+
+.jumbotron{
+  background:none !important;
+}
+
+.piano{
+  background-image:url("http://www.theartscentregc.com.au/assets/components/gallery/files/2/677.jpg");
+  background-attachment:fixed;
+  background-size:cover;
+  height:100vh;
+}
+
+.riviera{
+  background-image:url("https://gaytravel-destinations.s3.amazonaws.com/32380/santa_barbara__large.jpg");
+    background-attachment:fixed;
+  background-size:cover;
+  height:100vh;
+}
+
+.testimonials{
+  background-image:url("http://backgrounds.picaboo.com/download/ed/df/edf049667cf14fc488b63a34f46a920a/neutral_toille.jpg");
+    background-attachment:fixed;
+  background-size:cover;
+  height:200vh;
+}
+
+.philosophy{
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/a/a9/University_of_Otago.jpg");   
+  background-attachment:fixed;
+  background-size:cover;
+  height:100vh;
+}
+.ctact{
+  background-image:url("http://i.huffpost.com/gen/1931502/images/o-WOMAN-WRITING-LETTER-facebook.jpg");
+    background-attachment:fixed;
+  background-size:cover;
+  height:100vh;
+}
+
+ul{
+  list-style-type:none;
+}
+
+.scroller{
+  border-radius:15px;
+  padding:15px 0 15px 0;
+  cursor:pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.scroller:hover{
+  background-color:#c1cdcd;
+  color:white;
+}
+
+.testimonial{
+}
+
+.doge{
+  height:250px;
+  width:250px;
+  margin:0 25px 25px 0;
+  border-radius:25px;
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+.textright{
+  margin: 0 25px 0 25px;
+}
+
+.spacer{
+  height:75px;
+}
+
+.mobile{
+  display:none;
+}
+
+@media screen and (max-width: 480px) {
+	div{background-image:none !important; background-color:white;}
+  .nonmobile{display:none;}
+  .mobile{display:inline;}
+}
