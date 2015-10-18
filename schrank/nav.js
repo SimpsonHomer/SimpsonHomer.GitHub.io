@@ -13,4 +13,14 @@ $(document).ready(function(){
   $('#scroll4').click(function(){
     $('html, body').animate({scrollTop:winhgt * 5},'slow');
   });
+  $(window).scroll(function(){
+	$('.fade').each(function(){
+	  var obj_bottom = $(this).position().top + $(this).outerHeight();
+	  var win_bottom = $(window).scrollTop() + $(window).height();
+	
+	  if (win_bottom > obj_bottom){
+		$(this).animate({'opacity':'1'}, 200);
+	}
+	});
+  });
 });
