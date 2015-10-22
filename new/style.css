@@ -1,0 +1,52 @@
+body{
+  background-color:black !important;
+  font-family:Scada;
+  font-size:large;
+}
+
+.container{
+  background-image:url("tile.jpg");
+  max-width:750px;
+}
+
+.article{
+  background-color:#d3d3d3;
+  border:3px #54616f solid;
+  text-align:center;
+  margin:25px auto 25px;
+  max-width:700px;
+}
+
+.resume > ul{
+	text-align:initial;
+}
+
+li.resume{
+	display:block;
+}
+
+.resume > div{
+	margin-left:20px;
+}
+
+a{
+  color:black;
+  text-decoration:underline;
+}
+
+a:hover{
+  color:red;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style-type:none;
+  display:inline;
+}
+
+p{
+  margin:0 15px 5px;
+}
