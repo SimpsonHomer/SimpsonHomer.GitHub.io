@@ -17,6 +17,13 @@ body{
   max-width:700px;
 }
 
+.course:hover{
+  color:red;
+  background-color:#eeeeee;
+  border-color:#829db4;
+  cursor:pointer;
+}
+
 .resume > ul{
 	text-align:initial;
 }
