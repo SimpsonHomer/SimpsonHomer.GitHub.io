@@ -1,0 +1,32 @@
+\section{Frege's Puzzle}
+
+Frege opens \emph{On Sinn and Bedeutung} with a puzzle about identity, or `sameness'. He asks us about the following sorts of statements:
+
+\begin{itemize}
+\item{a = a}
+\item{a = b}
+\end{itemize}
+
+The former sort is logically trivial and knowable /emph{a priori}, as statements of this form merely state of some object that it is self-identical; they are tautologies, the denials of which are logical contradictions.
+
+The latter sort, however, are putatively informative and for the most part knowable online \emph{a posteriori}.
+
+Question: \emph{What example does Frege give here as a `fertile discovery' of the form a = b?}
+
+The puzzle is this: why, if two statement `a = a' and `a = b' are about the same thing (the thing that is called both `a' and `b'), is one trivial and the other informative?
+
+An earlier answer that Frege gave was that identity statements are not about things, but about names. On this view, `a = a' means that `a' names the same thing as itself, and `a = b' means that `a' and `b' name the same thing. He now rejects this view.
+
+Questions: \emph{How does Frege's earlier view resolve his puzzle? What is Frege's argument against the old view?}
+
+\section{\emph{Sinn} and \emph{Bedeutung}}
+
+Frege proposes that there are two components to the meaning of any phrase: its sense(\emph{Sinn}) and its reference(\emph{Bedeutung}). The reference of a phrase is what it stands for, while the sense is a `mode of presentation' of the thing stood for.
+
+Two phrases may have distinct senses, while having the same reference. At section 27, Frege gives two examples of cases in which this occurs.
+
+Questions: \emph{What two examples does Frege give? For each example, what do you think accounts for the difference in sense of each phrase?}
+
+Grasping the sense of a phrase is simply a matter of understanding one's language sufficiently well. Fully grasping the reference of a phrase would require knowing of everything in the world, whether it was part of the reference of the phrase.
+
+One and the same sense may be expressible with many different phrases in different languages. In addition, the same sense may be expressible in the same language by synonyms.

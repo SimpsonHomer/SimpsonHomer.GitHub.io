@@ -17,11 +17,25 @@ body{
   max-width:700px;
 }
 
+.course{
+}
+
+.course > button{
+	width:100%;
+	background:inherit;
+	border:none;
+	padding:0;
+}
+
 .course:hover{
   color:red;
   background-color:#eeeeee;
   border-color:#829db4;
-  cursor:pointer;
+}
+
+.resource > ul > li {
+	list-style-type:none;
+	display:block;
 }
 
 .resume > ul{
