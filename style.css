@@ -66,6 +66,8 @@ li.resume{
 img{
 	border:1px #54616f solid;
 	margin:5px auto;
+	width:100%;
+	height:100%;
 }
 
 a{
