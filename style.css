@@ -50,6 +50,24 @@ li.resume{
 	margin-left:20px;
 }
 
+.portrait{
+	font-size:10px;
+}
+
+.portrait > div{
+	
+	display:inline-block;
+}
+
+.portrait > p{
+	display:inline-block;
+}
+
+img{
+	border:1px #54616f solid;
+	margin:5px auto;
+}
+
 a{
   color:black;
   text-decoration:underline;
