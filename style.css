@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-  background-image:url("tile.jpg");
+  background-image:url("back.jpg");
   max-width:750px;
 }
 
@@ -89,4 +89,9 @@ li{
 
 p{
   margin:0 15px 5px;
+}
+
+h2 > i{
+	font-size:12px;
+	vertical-align:top;
 }
