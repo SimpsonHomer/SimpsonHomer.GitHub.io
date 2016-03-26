@@ -7,7 +7,7 @@ body{
 .container{
   background-image:url("back.jpg");
   max-width:750px;
-background-size: 100%;
+background-size:cover;
 background-repeat:no-repeat;
 }
 
