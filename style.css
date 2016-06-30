@@ -97,3 +97,8 @@ h2 > i{
 	font-size:12px;
 	vertical-align:top;
 }
+
+::selection{
+	background:transparent;
+	color:red;
+}
